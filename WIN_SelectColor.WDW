@@ -1,0 +1,1044 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_SelectColor
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_SelectColor
+ identifier : 0x26f3ee50066372c4
+ internal_properties : CAAAAAgAAAAM/WYqkJx6JzrVFEz0ovBcKmmQ2RyWAtcOxK2NjVq32Ut2ErHaY20tJx85K6eVkrJroC2XcqA6ZZlkLxWE9RKMOXsjr2oJMnwbmxY29Vo3t63NK3mnHK7bm++AGzBwyldqMKzULtibWLXKI5EFOlL9TCSHi5kYg56jToyWXnkltOyyUYNB1DwgfuOs3SPtljF63I8s0dbuyasi+ZavLTd8+khwwZkJ8N4aIfSyGaFzKf3e3rY8IcHrUYhBm/Xim1FiRnR3hP4TrDJLOqOaGEK1bCKXYmZh4xLLyUZ/dWdKNq1G+U260GRgqhB94CjsqMpCcz1FJKcPsF1nEsHGbSSLy7omf8nLDUIgeWQb70AfjnojvD+f69m7EAa3yTYPBq9PWfqmwphta3fDtajnp8xV7htAX18Tnk6QkSMINpal1/ncVja4hm+COHXpK/dVu1kCSfYVLXj09VQJOR/Z8wOIwNzn6iwYZ3GckWS0GgNW+RYZ6Nh11v2dBgj/47BHaFwJcClwZn6HqewpmwSp32nVnssv9hDGGCLr0oBxfWfifOa9Sb03Uf6wOo97n/MeKxDMtg2Cctwia/RBd62/ycSshknmhh1n4Zv5ybFtNYApu3EtDSan/vfePeAXKiUIvDV0wKMBFmffHt0bu2zh0lQlRFh2RcexU0N2ZXr+U+ocYVScw/5awxN35EPjx40vSnrV4ocJk2gpXRh2/P4jNTVUBBb5wNY622o7nzMdwY5xZUfuC2Hp/6Z0EBSL3x3EAV1dJAH2
+ properties :
+  width : 149
+  height : 126
+  widthClient : 143
+  heightClient : 120
+ controls :
+  -
+    name : Image1
+    identifier : 0x26f3ee50066472c4
+    internal_properties : CAAAAAgAAABURg2IqGDy96cUa9mn7RQMH+TyNj17wU14OmQHO3lKoBsFQbZ2snG3memCbqHUS5C1/h1jJTMd/pF/sRLza1GW5EDvL7YUNnMMW/E+TI11JJxHKtnyLY/O9DdodkPjOQiXjIbBI6pBnzR37RI0SHsw30N2mHM8jIMA4OwQCpTvUV7/mSd9MC1EgxUgEuv75INpUKiguG2aVW63s++CLUR4X1Rxx2sSJWAGkdOLFjhZDIpnuU5O0NaO+wR6iA0TZyXzBE7itEMGzCwLGisJ0RTNyXGaRzYBDZVGF7welSHGzB6XIW3miKWiAJk53roLQb6G0wsegPXf0cWKqsSK8/Z/5yNVCkPle++qXuhZSG+kU7sjxkr6/RyYNgvNCAYlfWUbnDhuk1LZi7/K5brB2x54YtQ0Fu9J/VfyunsdLdR2FGge/Qsl3pGyFK9RK9nNU7BeScW29TNg/EAhnx/NpRWDbTvtgA9LBaLAdMihheUhvDB/2fbUNP+bvYMSo3+RVbUJYvOAiz+ywZ57hhE=
+    properties :
+     x : 2
+     y : 33
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         ColorChoice(MySelf..Name)
+        type : 18
+  -
+    name : Image2
+    identifier : 0x26f3ee50066572c4
+    internal_properties : CAAAAAgAAAAH+bIk1z/KnrEloKFtwAuIEWzl4dt4LOE29wkdBmDSR6Y5U9duvfg31XYR0/popaSQLYjkgdHiBHJW/cNYrSIYsFN6QmVzBuoTKS8kVYAU2HmGQFKorNNPwqPD96w6t03oFPQXK0AA4V0U9p1H3h/qbl8/flNPqGZ3ZOBDoPZzTFUQUFG628eD2YKNdG+xsHy0hqjhice8yJOSQYhYjlmFxUSKMDYODaOeRYzqkCotDkOkqceUzrr61BQTKHylRKkKNIreFeow+YnSqu/Tq4NMDBVlrzZ8DMkJ50SbhVrStYjVdzhE+L0FIqwUs5ysDNgvR/ztYuaM6qkc142X/QRkuZ+Bs+KN8TrmB3yguAYafZkoO9W5+1/4o5GFGScRtlPtPGNRst0LAG1ujmhaB4mrPa4gHZYu+RgV8wlW7z3BZK0jqoghiAab9f31X1Sadj6IONJbfnxQFczvUtdy2APnsRFF4I7UCDQxc2bFfxcAs5GEXQcRicNejgwlAXIUYugQfPbdJ1ma
+    properties :
+     x : 21
+     y : 33
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         ColorChoice(MySelf..Name)
+        type : 18
+  -
+    name : Image3
+    identifier : 0x26f3ee50066672c4
+    internal_properties : CAAAAAgAAACTZd5wq+umik0RjL1h5P9MVSCppScsAGVK+/2xokzug2J1nyPSmVSjYWJNn67ceQjE8bzI7YW2uEYacVeEmZ60TI9WXunP8lYvhYvA6RS43H26RFaUqFkjEtNXi8yOu3G4JOwLy2SsfZV0gqm3enNObmdfwpujDLLPFERvwMLngFVIMDWanwu3OTJBMJcdVPi8BqiNEeOgFENCTfwoWuVpLezqPKbqcbcezRT2fli9RHcQBycc/LrC9DyLwBwVtAnKlGqSeUakDW3GhktPBxfoUJ+fISp4YC+jV46x68R0H1ITxWoeIt9DbJJKBXJGlmpZpUIfjHiOkLMaHSdNP0Zu40U/deSfS7iQXdqCXhgUj7O+QUdrFbm2HRcb060biEX/wunbND/N5pdE7PrY0bMFsYIMIZIq/Rxph536S9G1WKEfrvS1PLLHIakha1hmImpUDD7v6sik6ZAjBhu+bPfbhW0pjNKIxHB9D4LhUyN8L23YKctdRYeiwvAZFU4oVtxkyEoJC70G
+    properties :
+     x : 39
+     y : 33
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         ColorChoice(MySelf..Name)
+        type : 18
+  -
+    name : Image4
+    identifier : 0x26f3ee50066772d4
+    internal_properties : CAAAAAgAAABO1yn+1gKBrv9UbZr86arfxWI+Ys/CrA5CvBv0xwi0XG7R26nCLIWqwXaYPO8bgGzrX5wu7F6PG13FfhRujsGVyUAUUBb6fhomzUPr7OJFSg7Cw1fsUwdwXeFXZRyQOK5l4mPvtHOlw+kRwaA3dRGMpplXp0i1+fyo3VSFWZ0lG3TO9sVWdQUgkMfUIutXTtPkeA1kl2TvM1h4OCLKdMbABFp4oMS/Z0wIjp1OvvmnPqrHkUvFcv83x7dEcmDaUnsj/JL/IJikpje/q5w19Z/y0kSyohtddwmrhNbBNSLKsb4ZSnv9CFh0X61bIyf/gH5eSpRRkcLuXyGs3xZxtKc0tYT2sulXJAC96dxAkQXybRduU3ZY81+K2OwAQSyk50phgqhPng55SUnjPlpd/0gSV5BwpcnkbmCNrqXMKgOzhXTmu4ZTyCgOJ1J/wnARB4s+adWan1BdWhq52cAxnAAySZlfUQ5+6Ssn8k7PDZSjOj++6tnOkor0aQaJAKwsbWsGn0OYsSo=
+    properties :
+     x : 57
+     y : 33
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         ColorChoice(MySelf..Name)
+        type : 18
+  -
+    name : Image5
+    identifier : 0x26f3ee50066872d4
+    internal_properties : CAAAAAgAAADpE9x+nZGkiEMXkrNn/vW2Uy6nixEidrv4ScOY+bcPoqMWEv4tVvf4Antajk2valclIs9X8KJBPcd77r5bIFdLRejlSXAoWdcUm00yT5q6ouOwAlAWOls9+LHBzZpUlUemcmIFLZ4ux6MivAutIEXUFOWlLJWtlsQ1ilaRRlgJVrNufseMoS2B93hrMhVrRt4KtAYnox1aXqH4n05OMF+/k7LIXuBEc1lEkzrw9jxzkFF63y0G6dySTNqxuCpljgXMnmadbE+pFnrVlURwBDZPg99PTZzeevd7ad5RGxy4R2J/qY4KKutTzAY2ker2UqoZyU4DoGh6+CueUZvtf4IOyzkbkfhP7/hQgb7GfnhQT/OCjQs/RQVexUPP9+0jrA3vzp0v6F+57m9w2JbA2ZdNeb7A/fbawUTBK/Fem2kbALGh2FwtdMj7lV8XLcr+iAoMxmBH2jQ2WRClUEG8aMnP2VsPKF54EvzJ1dhLxdHO/VvOF91PS4GcyPYfD0AmUNpizkADDbPw
+    properties :
+     x : 75
+     y : 33
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         ColorChoice(MySelf..Name)
+        type : 18
+  -
+    name : Image6
+    identifier : 0x26f3ee50066972d4
+    internal_properties : CAAAAAgAAACmWBG9WLRJI5Y0t5A6k9pbQDPUlhQ5a7rnSgzZOPTAb+hDL2UAPVzXKVDX04iYB3TGg6D2l8XiXCYEjx868YgoJrkWOOe7ymKHlYtmmcZIarUa0pJU7iOxHGubvai0iw/s2Fb7v94SlwNkdnM7yIPcOtNp0sNh3jyVJLQJlEhL9qV4RglqFX2pz2K99lcvNL409jYRrTUWxsmSLQaUALn/UeAcTLbA28l4YaQolGxBANv073/MGmuS1Ly7MKyVhLkatPr6ET5s9TUOXgMXz8+AyYaGgHdD62SElPHGhCWfrsPyBKm9TyTowT3lcqtfyXEesEUal0EvzczxZOgS+ClVyLCSpKOcQFFJvGFbA+3T6mxlyE4aki4POuKW2LpU09TUhTSaKwxyJ1SP54ftKtpwWqkrhI1DNjlKpnxLlBroU2JSCStcBWcYdnA4TCkf6eltJ8FmuRUVtj2STcwHvXJ2fgCkA3FtDflKVllKxNLP/FjDHNhCWJSx3dt08mMDfYWP831GyPg7
+    properties :
+     x : 93
+     y : 33
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+         ColorChoice(MySelf..Name)
+        type : 18
+  -
+    name : Image7
+    identifier : 0x26f3ee50066a72d4
+    internal_properties : CAAAAAgAAABOsHn1IGwhC86cDzjSa2JzmJtsXkzhsxIPIvQxIPz4l7C7d53IdZSf4ZjP24CQDwz+i9j+r83qtM789zfiuWDwDlH+8A+kjCBpOcOI7WQoDAkeKBZQEEE79r9f0wiGI0mUsNAbX2REzWEAAhmTmvuGertroneDfEKrEGyvbDK/eGH8vBV+3+ufjS4J8FvdjEiAgkT1jTsAlCeOfcRUynWh4VCmJIqysX+yIZj2vPYZyu9wFftopIh6dLTTaLwlZAlqNGpOxXqgCZmiOv8De5N8Cs1Nz458TClZp5wDxeJS3ZjFV9CEgFWdinSks+TsZFinT9QNmkZMCgmsrzU3haTsaS9xy8L1WQK+L+zgoMbi3WFg46UBq18Ys2Etwaf5tju9bBM54lXDmPXmDqgix6FbZ5x2t/iIY4YX4WeQBR//foeKMXMEXb/wHqjg5IG3UVH1r1neMZ2dPrUaxVSPBaoutjhsy7klxTGyzsEinOo3ZCAL1JCaADzZNWOMmsur1V3nS8WOcBBT
+    properties :
+     x : 111
+     y : 33
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         ColorChoice(MySelf..Name)
+        type : 18
+  -
+    name : Image8
+    identifier : 0x26f3ee50066b72d4
+    internal_properties : CAAAAAgAAAC0TvdbgnKP4Wxybd4AxRDtdgGKREbPIYCVkFq4539lAgE8Nmx72p+o6nnIir8r5O9flCcxYhI1/bedQO5psF3jV5r5hxacMf+se32QryQawMsICCTeeK3TSuE1f256ZT06loxlkRi0Ocm60F0RBk2aeBG/RJ2zmHYDUo6jyiaNnIMmDANs53dTTWj/kAWNVmT6rBxTZ2fQwJf43wiS5vOlv9YKZlg6JdNOl/56goJ77jmqRUk+hpRKrHK5IHplrnW83oYpuAN1ovZBGZi0KGLTF1rSTPP7v5TEIMX6hL0TFlOeWF3hryjo0RmZNgtX/Qn2HCmm8ykbPWxV0NSKSGU16Ew2AJfcPIkxuKV/U52PCgRh3DoekioHsm76DMrED/T0yYDOTzye1wTDq8sNEt7YIl1nUGFT+sHCKjBf1KJ+g3JcU18ArX3MOr42rqc/z/EdwWtKjWFHDkVs19p5Ibw6upYigwGdM50uTAd0Lnih0o75yqp8ZqZDoxE6NK3JN8NNMSMg4uYt
+    properties :
+     x : 129
+     y : 33
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+        type : 18
+  -
+    name : Image9
+    identifier : 0x26f3ee50066c72d4
+    internal_properties : CAAAAAgAAAB6vEXxJGgdV3p4a9QGr6anrN9wcugF15aDpniuPbELvN+axLJFiO2eeG9OiEXdelEtim2PJEj7090DtkTH0jtFtTifzdjS9z3qMfuWrdZIstm+ZiroZrvZ2O+jhWxk46eAnPoj29bih+eArvuvYOs8nned8sdx1px58Kz5qEB7Zul8KtnWXVWx47YlrjPv9I7gOopJWXXO7gWOLT7gAKGP5WywvCJ42xEMXfQAQExpGFfgiw94VTz61JTTaLzlBKlKtMp+tUpQ2SkySk+zy+NspljQzn1xKX5ynkPETkOVlNGcXseLxUKCP7cnID2Fz1+syl9wJf/1F4ozPiYkLn/TBuJc6rnyVqOfVsOZtbvp4HpfwkQA8Izp0EzY7vQqoQrqRwbIQQJYEcIBaZXX2JAO+Cu1ArMBrHMw2G6ZDhiAgXDS2VkaSx9uGNzUSDkN+Z+r13E0lx/5QAuinZw7725oSKQwdRODHYdEUh2eEGaz4LyvcHSmPHCN+adALqfPKTHbR8mKdBRf
+    properties :
+     x : 2
+     y : 51
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         
+         ColorChoice(MySelf..Name)
+         
+        type : 18
+  -
+    name : Image10
+    identifier : 0x26f3ee50066d72d4
+    internal_properties : CAAAAAgAAAAD9Y4g2zvWmqtH3C9JWAOY88yFCROABBwohlIAUQJGak2XYEOkkr5t1H/H6XV3pf/Rl0ZxLtneo8r8ixy3e/5yIf9cLtExQMg9bTcyCXK07tV60r75Ul3sYJNzxRgkuy/MiHaDr9b6Z9u0NpNT0Dtk4kvhQqtBLgRFbHzRFGiB0KRgOM1ClyOf8Tqa5YZ/tA6ASmp5CRXeHkXuvQ7QoDG/lQxgHKJIWxHcjdRAgLyJuFeQq18o4mmSVLw7MKyVBDmatPq6Uf4sNfVOHsPXj4/Ah7CoZuXZoZbKVouMZttdfDl0tn+zjToaN69vSFW9d4c0YtcIbeetr+Irm0JFl44Wyw1XbdznrA99cO0nL6mnxkBBLOKeHpKTjoaCBPYAt1DoMWher9h262hj83OpVqqDGcY98vvRzBPgOMbxXoACaRgIt31mG6TnGefoy3h+3BFvUwSQRXHCyM/F0Y41KhoQEoNjVJNzTsdYRGwaBaTF182IQTuF1cWUQHJTFZ4mZuwUePrZO02W
+    properties :
+     x : 21
+     y : 51
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         
+         ColorChoice(MySelf..Name)
+         
+        type : 18
+  -
+    name : Image11
+    identifier : 0x26f3ee50066e72d4
+    internal_properties : CAAAAAgAAAArzXbYA/MOYtUJ9FWJLFcUvfiRXU/kuC0CI7X1JqCSN1ZpY69eBdBXHdbRUwJgDQwY9fBE6eESTGJ+Zcu4TVIIgENaihWbLoqLlZtwuSRIrK1KNAbE+InzwqPnO5xeSwGoNFy7+7TczUXEUhnHygNenvePcktzvAL/ZBSf0Co3cOVIYDWa7wu36ULhcNettDi8dqidIQNwxMPinUwYmvU5/ew6PKbaUVfOnQBuoP6RcqsEMWMs5HYS1Ly7MKyVhLkatPp6kb7sdbWO3oOXT0+AzPNroagOzqcrzXJ1Y3zcp5pLnYLmCvdbxAoyjer+vnIBnbqXFMCmSEty5W/lFw5Wyx0XreyH4zBobeqyjsjk32PucZcbpUnGbaerQ93LWJWvchkr5E/d9ucUPKqIAYNVYTK88cL6zWy5V+2qO8Fd2CkXlhRdfPKH4emp86i+QqJkjE5XygD8gXhbhgtG/L87vbXxzJrIZFCd/0opm+s0ZyUQ0ZOFHV/6aijBrSZAvkTMsKKhY2Wu
+    properties :
+     x : 39
+     y : 51
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         
+         ColorChoice(MySelf..Name)
+         
+        type : 18
+  -
+    name : Image12
+    identifier : 0x26f3ee50066f72d4
+    internal_properties : CAAAAAgAAADie41aGtY18qO4gYZ4lSbLwW7KZsvOyGruyJes9/g0rJbhs4nKzO0auV4A3MczGGS7Z3xWXKb/491Vvsye7rFlUbBccM7aRnoOCT8v0ObpfiIm99Mw96sUYfULcWhcdBphXi9zcC8x//Ut/XTb6bWgSv17I+zZzWBsEUiRVTnBh5DaAinyESHMzOPghp9rgpfoPLFQqwgjJ5w8zN6GwBI8gObUJABrE9ik+mnCUo0L4g4bhXc51v6NS3uqkEIKsEnX2KpixwcXC16WAkU44HiOzrg+VheZa/1fCCr1YRYeRVK17oeh7ISgi9m3T4ubLGqqHuBFbe5Sw0VAIwrtKOs4uYB6/t2bIHw51Qhc9aEeWeOyL+qUf6NOnGC0VTiom751nkxrsvIl9SVP6rbxS0TOE9RMmQXgIpTxgkmgRs+3wbCaf6r3PKSKs+aj3kwti9dqHRkeQwTJRibNHUytGCSe9R3DhXKCFWcTJtJDufjH3kO67sXSlpaA5YJ1HIB4mRdSY588HYY=
+    properties :
+     x : 57
+     y : 51
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         
+         ColorChoice(MySelf..Name)
+         
+        type : 18
+  -
+    name : Image13
+    identifier : 0x26f3ee50067072d4
+    internal_properties : CAAAAAgAAAADnOwZVQcEYYO0AoXDQB3ch2StPbRfUxk4/OIjhRazhws6QbovMquP8q9ot4YnJStfldG3Ovo8AdbnmXESQithurxc5yk/YnofW2XClJ8LVxa1vncjI2diGLqxqZgILGYNfghEUwng8VnN2J5eFbx0eOtDPMHuUucYjTZDPWvBTuKenejUhmNIQUkHqgwVlM0Oi9TJqVbkgmho41IBO2v36qifpnXS/OCuy7lN2iixpLk9HCAN2HYPRwfkupDasks7/Gq7LMTIuguLF1C5ietNS6PGn1Br+bvypb47wLl7bf9RNrDaDf7LJUqOV8Vz27RgQZtNFCMXTgBCUSVOcLdWtNd0AUIcplo1BSYcvUFj76LiEg1XHuYaRCtbeYLoe/OGpCsRCEBj0wOt2DKobT7OhfUhXaRvBuBgHyFkrgb2rHDzR7zPjxNt3oFtzdFZda7tDOXxCumXBQlzwkGj32B6XQZ/H48uaF1ZjLu6E7+yC2JP+8C4OXHNMgcgn9rFisbj/ABb/Oc=
+    properties :
+     x : 75
+     y : 51
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         
+         ColorChoice(MySelf..Name)
+         
+        type : 18
+  -
+    name : Image14
+    identifier : 0x26f3ee50067172d4
+    internal_properties : CAAAAAgAAACUDVfwnEjfFLWS4Zh2YwQhj9SUBCWc9uT81nW3fGebFam8zD75qRzpxlXNq4i4nW8P0hDafz81co8ogMbVHzrod7lv5lqgR9/c7+m+QFvXI8IxSjgfh3z/2jN1hlIAhtMTuH+Bk+lQAantyL6+RRzEyFuTnBF+0ucYXXbzbYvRzmLeHZi0hvO4kQkXauzllH1eO5IK7HYsFmhIY+6Ni19HigA7yrlyBBQOW4khlhiFZHENYDSPyupfA3OY4mgWkj+XWCrZLi5SVJVF8eJrw/2bG6VAfZrdc0V0/+j9IludW/l7aI7sX+AtRxQ4idcl7ZKqG+OVLJtvlkjaif3G6N9+TF+MCZo03qJd/Z6UtXmLl1oq6tWPNt4CbAMzsXrAIxuerK7v6u5GxGYIBKArtHYhXnY9YVBLOgRUAxV42sxqYLJtT7TLNZuFIEO/u513OernyikdQoZ3BOA/LypBiHZsO/unQRZMvY1HCiZbGXynfvf2mvHySm7ICabp2kaCVxGsxVnya3A=
+    properties :
+     x : 93
+     y : 51
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         
+         ColorChoice(MySelf..Name)
+        type : 18
+  -
+    name : Image15
+    identifier : 0x26f3ee50067272d4
+    internal_properties : CAAAAAgAAAA3oDCFKXtoxUQhEjFBbiPYxiO5MU5jPzlLxSSw6x4wqJQnERM6/j2OW/jwxJ81iMCVwYpAgORHhz8H2sCi5KXl17C+bvJE+sJ3oYFXEfsqRtq0ckJ1sCHYscg6rZUTH9moGZIOJsnhsc5es1IKVtme5FPgv4RHplpBOYoW6pzJGVvx8aAwHNS8kq/EEgL+soinJp9RFpqNctFFKN6mLN3clpgRydzx4xcU9pocYpL2Hwy9588Z+F9K2JpQuTISHBpsfAbb/Jgh0wcLGNBkIKg8DE5MIEF3b3HdjpECGE0lbu96rKmrzjbiPYNB6GW/QnzMOAglxrVFtHYxRCEeBer5eD8595YywzDrB0IKgznaVduqqw6sK/OhL/QowSLEI4bRcgPSAb/kUoIsV0uuqEfalUYwhRWWMCJxArsmLGYouGeRZE1sLfXN9G9ERV3iesC3MqD/UPUCEcPqGufm1d8T0gI2KidzBlYQI6/+XCXQJTinw8Dl6wF17pseqxfRxsL/kEyPyNM=
+    properties :
+     x : 111
+     y : 51
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image16
+    identifier : 0x26f3ee50067372d4
+    internal_properties : CAAAAAgAAAC2SOFN6KTZk6Ykp6BqwwqLEGPk5uRpO6r3uvwutQmzJGdyPKJdGL12iNf28BVtCuG96t0HpDATs1XD1hSP6jOtXWAHnbBSl5uK5bu2ifZYuuVKguIk3hMhjLuLjVhk259ciIZLj47CR3N0ZkPrOFPsKsPZIpNRjuwFtGSZRDibhlVoNtk6RW3ZvzItBoefRM5kJmbh/eVG9nmindaE8MkPAdAMXEYwyznocRT4RFyRkEvknw/c9aQSWNiDuKDd5BmGmK44DzRS/4Og+GlxBR3GQGbGQBfjq4TkNNFGJOV/7oOSRGndr6RIYZ0FMgvfafGe0EWa9yEvLezRBKjy+AmVSBBS5MP8wDFpnEFbI63z6mwFCI668q7vWsL22FrUc1RUJXTaSyyyxzSvh8fNKjqwGkmrhG2jNhlqhlzLNFrKDbR+Pf2OZzNiPIBwNPV5HWuvg4Uo2+uN9P/WCdg3y3I0fACkGaf/QYtIVhmaFGK/7KiTbAgSiMRhjQskAnMTbfUfAw022Ogr
+    properties :
+     x : 129
+     y : 51
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image17
+    identifier : 0x26f3ee50067472d4
+    internal_properties : CAAAAAgAAAA1z2jaEf0QVH9jHu+rAknK16IrH42m+u/MfYfif9UZmGH0ECBfANkSCNmUeCN9JB0LyOWp6rQ7p11Z0HAh7gEJuz7rQ1Lyqznqt3mOexYWDi+sbtSajt/ZPD2NqXbwwZNSLp5pAQJCo4duOBfZrCEwUPGhcFnhOpDZFkJdkuTVkr9aintw5XFtC9QnXsF38rp2QGILJ5FuemXEu5qK/MvLD77U4tSop8UIb2acYvhvTA1mawFaYunKrHK5IHplrnW83oapOIP1InbBmRg0qOLT9BdnLbT+ikcL+VYJKwSoj+Iv2cbKcjP7VJ4GASK2ekqhsVaD2GgKaKse6TN9Z5L2K4n7SVgXh1BIua721piI72v6BRtnFXWOtWPXTx2LPNVvPn032PchFvf4GGZYuV/9gbbI/S5aERThO5lmu0HfKFGd3FA5vIw7xQtL4aoW/IKEulxbthwKkVhxrD2EEK0HUTdzzJLIBjSh8aSXCZ36qedSk1HbxwUgTErjQ7zaJC7WurSfYWes
+    properties :
+     x : 2
+     y : 69
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+        type : 18
+  -
+    name : Image18
+    identifier : 0x26f3ee50067572d4
+    internal_properties : CAAAAAgAAACZYwyuTaFUGDOnIiO3DkXGw75Xe4GyZkto2dNPUG5c3TjD/fkUp/KZh6Dz1fze15KCP8q218sUXlSQL70iO/yumqWk/As9cHQVC0kGNyZ2ZtsQavS2zgcZMDl94bq46WNOSjqZ1Zo6S0PakGeNnNlgTEX18FXJqijVgvI99pxN8lvOriuU7ZFtv3BXTj13CoJaHJZzE5FuUrmA82K+7OsLYwKYiohYVxWM04ZkJmCXXNEil8mmavFKuGa5IA51rnWwKrInphl7pPRTK562NljJ8hkBG+KUiKHRIxhPRRq+RXipY0zoSOkNikC4R2x8OKgXK8gZVsZgwvGoa6GXRVhcsXv1z47lhRKOQ/D0iM7elfkEH3nl0zt4010R5f+pent1OFft5o3fuCXSunSSF/UL90hKY5xg91ZXtQsUbT/nLlclVF4vajQJly+nvbqEbBA6WpwBNJZmC8YZzE2Y4nkZg/OXnhxWpnLjtfh7NUFeDUs+h22/2xEsWEbvf/CW4GqS/nBTvcMA
+    properties :
+     x : 21
+     y : 69
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image19
+    identifier : 0x26f3ee50067672d4
+    internal_properties : CAAAAAgAAAC6fAWxZChdFzq4KxRG7+bnbB+wsqhFl9bDZvitNLCcS9Sfu6G0GdgT5ewDTwwciwgaRzQ685m2kJpIY5N2fbQUIjXClKtHJs7DbyEUa6BmnEdE9HDCZKnPBi3BS6K+6XH+KjCZ3fwYDU1eRMGdEmm2VG274NHvZHL/XmrfDnrRoLeKoPfYq0t3EdwDpDF5EiDmqAifK7P8/GNEW2S2Kjd5k/ru2uSemZdSC8Lebq4nKmWGweWyYNo6TPJJcOplPoVMnnbBQIvt2q6ZIUBMgIp7HU7OQN/nc6hYpJl+UMF32leKXFkVIxQ0HcU1wg9zOYVyIBVKb6Wv8SCJhGh2fInZTBgaLGsQ2CWNdOErN7nrpuDVuF5Kvi4rhoKOgFYog6hIFWTq06DqQ6Bf93ehTho0nuHT5C2fnqV2jlSDwNa0ny52FR+4MZvMqjS80IXTvd1hAzXyXVlBQrkOyfgbic6S2rTA5+25YU0Omt1e0KbzoPxvsLRmfLBNuecAbueP6XGbh4lKtNQf
+    properties :
+     x : 39
+     y : 69
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image20
+    identifier : 0x26f3ee50067772d4
+    internal_properties : CAAAAAgAAACHeTKkV79KHjAaSHEdYHu4YSwVobvoTD+nivUi983pYMmMWACn8FfhKDGt/He5mPFP7EknsoLx4Cv/GnOQmq3FJgULHEVSO8ohxQspOO6S1dxUbVWyQI01cbM3bz1HZcg0UNrPyQJLJEHZeGnp1kLGO+0Jr9Z1NL8KKBCUjGiLfTs5gukIz9fzeTzPmHElPrQu+CB7i/9YuFN8f+imFsvNAzIGvpSivXO6I+byTtrrxh2+oTmifga6zPLJcOplvgXMnnaBgEutGm7Z4QAMQEo7AVDYPrUNsarePiuMQmfdaB1U5rejoXK2k0/3YFmBL9vo+h8wjUs108b7fpbAKn8vIgq0hCnJkRnhlNGApGqffy+QPNkZr7AJAWN15SlQF/Oo2Rr8QSrAVjenQEKAuUyM1qn/Iedtm0Fs2O9pFEzpu3r8Pt+qepd4HvApygMbRdyY8FZbfnxaIagJHC2vncSlLQuviE6M0mAFhYADeXAWu9m8FX/ZsZuWRmSNCVKR4miQ/HZdp9ka
+    properties :
+     x : 57
+     y : 69
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image21
+    identifier : 0x26f3ee50067872d4
+    internal_properties : CAAAAAgAAABdpxCyWbVIPJdLtpfDmtGir8pDB4WOYkdU1e98pSMLfh9CXnqh8rN0HrdmKnGz/rupNsOLPMYFwev/kiKnrOMHsaRRJSTEpbNA76FWaxaGvp88jkyKBlfJVN1t2b6ICYtqJjZZ+fKCq8cGIG8JzJEgwLGBWLlpQhDhRmJNyqydOmcCEiv4tRFVO7yvhhEH8hrWYBKzR9mWKt0023qi9IPzV3acsiw4150YRy5EMngPPH3WO9m6qpdKGIa5IA61DpVQqtL3NsnLVKSDG47GJgjZoGvDWYAy1lMH5Vpdbyi0Q36TtXIWJu9XQIpKBWbqZr4NRTKv9Nz2dNfKDafx+w6ad+1HZRRrA4ykVYK6auzk42f+cZej2ZHq0V/rE8H/SKkLYikT9Eut4pNUPOoc/eshrer0SboeDRAd9806v9W3nC11FBDJIIw/2ePr4ZaibA4wUoQjLohydezxLF2ANKXrtY8rDMrklgD9icyvYTViEU86i2mzL22I5NJ762QCfIaO8nxHyf9E
+    properties :
+     x : 75
+     y : 69
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image22
+    identifier : 0x26f3ee50067972d4
+    internal_properties : CAAAAAgAAACGeDGduJSpg7YUl7Ba8/r7YBO0trRZi9rHaqwxYOxYdxDL1w2Y9UQPgdi/C9DQ3xwOy2j+L13qtH7sFzeiqWCQriHeID/zMlq/9euGuaZoilX6MrL0jkPR/Is7HYhU6+9M+Pbbnz7y9yNE1pPbKCN8WjNJcuMBftz1xFRp9GirVoWYZulK9d2J78KdFvcP1F7UVpYxzVU25ikyzeb0IBlfMYC8rBYgO6kYQQTINEzhIHvUz5/sOhNC9DyLwBwVtAnKlGqSeUakDW3GhktPBxdoKeZmINcjy0Qk9FEmJAW/TmOSpIndb0SIId0Fkov/qVF+kKU6d6GPrWxRxMgyWEl16NCyBEM84PGpXIH7442zykzFqO56cg5v2kJ2uFo08/T0JVR6SyySx7QvBydNSjrQOgmLpG2jlplqhlwrtHoIcwLC6UuMZdeIliCorFlvGbldh7H2WaWVFs0SzXznXfK2/tDkQ4Et3ckKhskq5LLvnPhjvLhieLRRvfsUEkMjXeVv011mqNgb
+    properties :
+     x : 93
+     y : 69
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         
+         ColorChoice(MySelf..Name)
+         
+        type : 18
+  -
+    name : Image23
+    identifier : 0x26f3ee50067a72d4
+    internal_properties : CAAAAAgAAABrjTaYQ7NOIpVJtJXJbJdUfTjRnQ8keG1C47VrsDqAQcBjdT1kG84978DXIWSCm9aCf0rqn8fI4jzAW+nap8DK+m2c2INB7GjVNQsAwTxwZCXCnFYc2ImrogvfcyyOCxGYFJxjC6x0PR30slkPAluWdh+3QqOznNovjJxH4IpX8KUIQC2K54NnIcKxwE/1nBA0LlDdWUPAXOPaBUTYSsXZPezKVNYSiecGXRCeWKY5OhMMeRNkFPjaqHC7IBBNpHnmmK40Czg+i+9cLJ21KWlaeKf3nURi+jPXOdaJt5AoS2Yf6U7SrlM3EPYmMR6iKpZtgZbDkIRCxPeueaPp6xqqZzEjmRhbL5w0qV52MlxgY/9i3TMXmTUSuXP/FyF/NNkbZgW3cMMJYoNwgJ6MdX+ZfSaIPc7uyUhF0yHuH3UtDL235kwlcMr7hVkR26QyMpZgPP4n0vQEbRSrVouaYP/fgW05/GoErBRBTxrpWyt0J2XQEdNFXZ+6KmiB7WYAfoSM8GJhoyVu
+    properties :
+     x : 111
+     y : 69
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image24
+    identifier : 0x26f3ee50067b72d4
+    internal_properties : CAAAAAgAAABQqkP3Jm4bDdieCTrUaWRxmuVuWGKTRSQJJL7kO4OphoUgKgA3zqN8rh0sjkvXcDvrkPPNBl5BSVOpPBot9NHHa37NizIQJROg98mMs7iehE/MnNiavHFnPnUJowrWARkmMtiBtTTAJcWmDBlFSoEePJVDSKmnrCpXhnI39pLJCN/SyP/w4/MviaSLfFlRqsjucJCHI6sk9PusA9z+Yk/hu4IWohz24e/KE+oWtuYfMq1OqS0KePAiGK4xKG5VzuUgGjKjoq3ncDAPX7LqmoTNja6+0D93c4jIJBlucKE3evc6/DlFw4SEPbVlov/DCdXiAAVaDxXPsRCJRBgWXElZzKiarLuwSFVNhLGrR4mb1rAVCA6KLo6rFgJOsHaoI8hoxYRKgwCak0CPpxcRnkqEDsHD9A2vnqVmjlQzoHYiB7YoV1sUQZnI1uqiyksbyy2ZdacO+Y2bgvnAey5FVYBeHgJGb+WBL5laKGMgkuQ9biod5o6YAjrXN2WOmMmty1fhTceMdgpJ
+    properties :
+     x : 129
+     y : 69
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image25
+    identifier : 0x26f3ee50067c72d4
+    internal_properties : CAAAAAgAAADLZS9XqSzW4XIGkKkdC1QmhfGAntRE8PXC3NXuVy58NiGRPkB11DbdkzqdGBIFtXYMLZQkggdN9LAQrVKYn/H4dtbmBp11r96DvAxwqDaTrafqmwzNxTRKt2SvI81dOnKNAXMuOz8gsKYKg+woWfBx1DdVzL1RpWnyfW9PRjcOCJrO+uzYovRsYmM9qiEgASQovvUCE6oIIAXNsyKAvVBt+HFCJSbF/65ZTcpHY04VMqFaIqavORMvCXeaidYFFxs0T2q5y0avYu2JSM2jcO41K4eiLyVL8lVwz8VedsBYxyl3bG65nX0IaCEIk6btDeN7AzFol7EcegCfoxHhV1vfjjmtn+sCdB5RXWFfdVC+4TENwxClYR43p6IPf3ZLWKhMO0Tj5130EMbFwVXl4ViZXhoJ/CzQVbMHlrRgKffpokAqYNQyEKxGqmvkrLIurEP2y3n7jgJoCIB10OsYgIL89UOM0FhsPBnRIB8b9jQKlQiDX9khfHwVnHZ9rRc4fiOI380H3MsqOw==
+    properties :
+     x : 2
+     y : 87
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image26
+    identifier : 0x26f3ee50067d72d4
+    internal_properties : CAAAAAgAAADMNs9jmnqX2fTq1XYojci1XtlyfO4H2cjtWNI7cvLafToNERdOb86ZA8KBpare2TIAzQKArZcUfqAOIYEM5xpumCNQ8hU1dFSRARtWLSZo8lmOBlq4RqtJ+A+zldyks/dwXGpjG4ZiB5cwTnsvsKv83oc9Avex5uz5UNwpuEDLFjncOrkWrTWxs2YF7rN/9A4AqupZaXXePgWu3W5wQPF/Fezg/IJoG7HcjXQgYNwJeBewqz+IAnHClNyLwBxVVOkqlEqCqVaUnf1WVht/FycYt4DYNrUJsUa6Rju8tgtNDGmEpg9DPcpKZ58feOXtZ5ckMscYfZc931J79p7MtvervioEsrGK/qsH/jsx3YNBWDLHSkw4iBRx2FTQ5pySOUKiz44w+XrgmUqJoa2/wEhGsNM9CuvZdNs4wAZxlkA62SDgnx1mK/GiTJbGfhPdsz/LFScII4uPMDuQs9YRmyT8vKbiXSOrP4vY1J/8tsDZisaxcnKkPn6by8lizAVhn6tVOTsY+o7V
+    properties :
+     x : 21
+     y : 87
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image27
+    identifier : 0x26f3ee50067e72d4
+    internal_properties : CAAAAAgAAADMNs9jmnqX2fTq1XYojci1XtlyfO4H2cjtWBJ7sjKaPXpNUdeOLw5ZQwLB5eoemfJADUJA7VdUPuBOYcFMJ9ou2GOQslX1tBRRwdsW7eaoMhlOxpp4hmuJuM9zVZxk8zcwHCqj28YiR1fwDjvvcOs8nkf9Qrfxpiy5EJzpeAALVvmc+vnW7fXxcybFrnM/NE7AaqqZKbWefsVunS4wADG/1aygPEKo2/GcTTTgIJxJuNdwa39INU7KiDCLsMBNtKl22H7MU+AWI+d0NMXNgZFi3oDYtjWJMca6Rjs8NgtNDGkEJg9DPcpK5x+feOVt5xekMseY/Re9X1J79h5MtvervqqEsrGK/quHfrsx3QPB2LLHSsy4CJTx2FTQZhySOUKiTw4w+XrgmcoJIa2/QMjGMNM9imtZ9Fs4wAbxFkA62SBgHx1mK/GizBZGfhNdM79LFSeIowsPsDuQs1aRmyT8vCZiXSOrP4tYVB/8tsDZisaxcnKkPn6by8lizAVhn6tVOTsY+o7V
+    properties :
+     x : 39
+     y : 87
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image28
+    identifier : 0x26f3ee50067f72d4
+    internal_properties : CAAAAAgAAACHeTKkV79KHjGlICHtQIsIkexlYVv4rGG2dwkCa/XBYI2AZKDjmFlK1PWEmKf1pK2fRIkBLhSL/6kFKHAd9im5V2qXGy7ai9kWcZvQpSxwZCEWQK7YOPmj3pcXeyAuC8HsyGizZwxctek4miGLgkPe0nPjmn+rtMoTqCRXxNqHkPnUdG1GJ8OH1cahuJMFVKB4mjwttSMY/K8mtWwsEt05GcgeXFIaCafamRCe1F6BIsdoDfNQ7G6SWNiDuKDd5BmGmK64j7TSfwMgeOnxhZ3Gir1Nz358PBnZNyyjVXLCrYjFB6DEcFWdmlSE4yTMZJgnv1QNioY8Gok8/1VHNXTcOQ8BOyKlWUJub+wwAObCneFQI2Uxi++ok5HdgRfpRoutbAPJIqUjuKUmDvgChwEb54x2tyjoc9bXMfdwlU811j+HNvaf8rrtmyVV74xUOkDKFCYJLIJ4G9b7LlOW5lOtz7H1SjCmNP5PWxZF/5eAMxEE3YeRCUPeDoylgfKU4miQ/HZdp9ka
+    properties :
+     x : 57
+     y : 87
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         
+         ColorChoice(MySelf..Name)
+         
+        type : 18
+  -
+    name : Image29
+    identifier : 0x26f3ee50068072d4
+    internal_properties : CAAAAAgAAABwiiOXRo67LTi+KRq0CUTR+oUOOMJzpQQpBB4AV//FcjEM9mT70ifoolnYaqcD7JfHPO+h2rIlBXclKKa5QI0TJwpZz2a06Z8UDVPO+Sb4GsXaIkqEhkvhpEvb3UCMM/d0IF57Fy7yr5P8rpvLyAOcerN5qiPJNlwNJMRJ3LBT7j1wfvnStT1xn5p1LvcvtA6kFiZZbV1+pkFCvbZ8WDGnmQhkHA4Qi8FoCUzAZLyhIDvErwdsgi+S1Lz7cGzVxDnaNLra8d5MlRUuvqO3r+/g5fpCXNP35yDAUPUK6Fn7Ar9moAUpE7CUvQnJpp8jtQW6BCG2EzXbuejNGPw2vPX51CQuAF/QbH0lqFV/B8GP7qgpBJoWplobho7aLB5ozyiAyfDG91Cu45BbO+thjgb01o0XIMk3IiX2EuAvWC7yP0YYt/PUySFQPrLiCpM7091hrU9ewT1LMimwk0bVrRBWHnIGJyWpR5HS0IPAcgQdTgp9Ri744ho3V0XueOmN63eB7Wdslipp
+    properties :
+     x : 75
+     y : 87
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image30
+    identifier : 0x26f3ee50068172d4
+    internal_properties : CAAAAAgAAACvURq8X7dCJqlNeAlFGFMgKVT96XOAVBkeL3GjwJpQ8bAT5dV0U6Ztp8DX8Ry6wx5KN+IKt5cIepyYE7GqdzCqWg0sUINZlLj9oXcsVYCEuJmGUIpIbE3vZs+TR5iqh51kACi/35jAKanwbiXDxp/qKiMrRp+3kN6jcEBLDObTfCEUTKl+c2/Dza4d3EP5EIQ4UmSRlQcEACcOeUjUdkG1iYjmIKpeZRNSiYzqjJrdzocQfZfQUzn61JTTaLzlBKlKtMr+NcrQWamyys8zS2PsK9uj4QCuTof7HcodA6Qcv/or/TrmUv9jzDLi/SIuphLphZJHHDD2eDtirfcFT77OC91XVVwf69jwFcpCxigcn7smGfdTpTkWPfdzGy3DaI2vchkjBHfFnk+MrCoQcXuVeZp0QcrqzUzZJ/VSu0nZIKl7EqghhOaX8eWV36iWfgoMUOqzfniA6RDXSg+edMuT3TFF+FZ4CNCd664dl+8oWzks9f8psesGZlT9aZr8eoCI9H5Fz/Ey
+    properties :
+     x : 93
+     y : 87
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image31
+    identifier : 0x26f3ee50068272d4
+    internal_properties : CAAAAAgAAADb3WbIc8N+MoXZxIUZvKekrchBDf+06D1ys8WnPIasTexfIYEYTzL5k1zTfZCuZzLuC1Y+Yys8DgAsZ2V2A0zWZskYjKd1ICQJneNomfQ4XL1qND50oHEjKgMnazS2I7kA7AQ7cwRMhTXcykHnuqOOzocPyjvbRBJXRCT/qFIPWI0g6KVyX1uveYrpiAeNJKistshF0SsolCuSDTzgcv1hJcQy7N4Koe8eRQimUF4hEms0kVscvKQS2FjDeOAdpBnGmG4Y79Qyn+NAWImRZb0moE8v1RxK4hvPIc6Rv5ggQ3438bZ6xmvP+O4uKRbacl5V6Q5bCAzKTE92sWuxM1Jiv4mLIYAzB/RcgaYu6pSoKycKdauvAZ36UdtX/8mnDDHzvu1f2Fuh+mtoiJaEbQch5Y5g1SZWMTB9m3lWhx2NVH3X9jSVCGIT/fGhS9zCSlb4xFZH6tTkTTSL/tNaKJ/nsY0pBFp8FNxpJ2rZS1tEd9VAgWO1LW+K+rhR3RZwjpS8oJKxU3W+
+    properties :
+     x : 111
+     y : 87
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image32
+    identifier : 0x26f3ee50068372d4
+    internal_properties : CAAAAAgAAACfYQqsT4ey9lkdiLlV6OPwGWTt2eMQxKmOv0EUUWsrNhP2woIditsM4hsGMmWD5vtVGqe72Jateb8zmspTrFNnVdhddZhcDeM04evQLURYvDmOCA7ASJlbPj/P4wDe+8EsiKh7FzRkhTFI2vGzSvsmmmtr6sdblAJTgHwvhHpX0DnkhLUWH4s3rbZxiAud3GjAMrStzaMYxB+uDdScch0ZOcgO9PJyUReiObAOvIbZig8gpWO43Fx69DSTKHxlpAmqNKquJZoAKXnCmh8j2zNcNlEpa8og6GWVc5AX+dZeAbT5E5yg5GHpxgA4l/jAcPyzw2AJhnpY9iWYk4lLqdDwZcO99275pS5qm0AkxAoeQR20T8GNbwtkX92R1VtN8s8p8K8FzrkvZAHyQvx2m31fo9DS4/Tc3yJzjatU6bNt+sMfTm4vdhKB7/XlX3jYkjTWhKYBTLaQ14Jbxgu66ksB61kdEqjCDNprO37NR1+466mcZQ8ZgbtWtuQNGUosStB45G5Vv8EC
+    properties :
+     x : 129
+     y : 87
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image33
+    identifier : 0x26f3ee50068472d4
+    internal_properties : CAAAAAgAAAC1T+hakX2Q1P/jnm8rgslKVyKrnw0mem9M/YfaBy0xoOkcGOgXuOFqAOEcEMtV3MUzsE0xYmyjf7Uh2IjJxrlRI0bzy+oKU5EClxluW7Z2rg+MDnQ6rn853B0tCVYQIbOyDj6JISJigydO2Pe5TAFQsFHBEPmBWnD59uK9cgQ1sp86KhsQBZHNq7RHPqEXUtpWoAIrRzEO2oUkW3pqnCtr7x50AnTIx6UozwZ8whhPbO1GC6F6AhE6zPIJsKql/gWMHjZh4GuNus55wSAsoOobdBdnrXR+SscL+RaJa0TojyJvmQZKMrO7lF6GQaI2+gqhMdaDGOjKaKseKTM9p9L2a8m7idhXB5CIea62VpiIL2t6hRsnlTUONeOXz11L/NUv/r13WDeh1rc4GCZYuV+9AbbI/e7a0RRhu1nmewGfqBHtnJAJXPzrBdvbobpmDLJUeqwLNoxqMSixrG0kkC1nceeTrAKo9sQBgTQXiR16KWfSE9FbR4WgzMpjwzxapK5WOjQf4ecs
+    properties :
+     x : 2
+     y : 105
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image34
+    identifier : 0x26f3ee50068572d4
+    internal_properties : CAAAAAgAAAClPkZnb7kuQ61W5Gdh0mOGyR4fQw7Z7YOyduyQ1DtChoiH1NXU/5zc17x7+A0QGB68evAGy78F4t/oUOYVj/rY50kfBupwh588RffYTjlFuajXBEnBRVHIkhwpZgK8Fk/nLO9xa22kuZ3hpAZmmWyoTNdzrOmyxjcMkQoD1U/h6s6q5VBswi9IHeUrwrSZNGlq/0qivMKoXuzMt+btl6cz7qRvxkUi3IBuG/ndKiihhFmdHDDtHioXMyPYOgj2Qv+PmNJlmlpmWOnhPaY/Fznf89sO91izoXOq7YZDSCGTBYeJfsh67b6bxdIWN71Dk/TQMYk/StnlHM6Qf7NcRp1wYmUK+1gChDgjM7Sq4y8x+YAwYH8VvBzAOpGRL5jWeeUcIhR5YHzUUsyuWl5EzYriPS3pJZjXitQQjwFowvSiGPol92wTnUMduGuHo2W/saJPzqldypuDAQ8BoHuz2UCS05yLoxu0EBUD5vVAmTk4jeTJfU4ug8ejxGmCffinqOCdNsoBWkE=
+    properties :
+     x : 21
+     y : 105
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image35
+    identifier : 0x26f3ee50068672d4
+    internal_properties : CAAAAAgAAABaXOVRhEj9txpYS/SmD0bHzL9QEoil9zbjRthFXCi003wnI6lMEUDL3VQrx5QUIxBiz3wiS9E+CBLQ6+teVcxcqh2KHMOfzma772FUK+CmnAfEtPDC5CkPRu1By6K+6bF+ajBZnTxYjc1ehAFdUik2FG374FHvZLK/HupfDvpR4LdKILcYawv3EVxDZHG5UqCmqMifKzN8PKOE22Q2qje5kzpuGqReWRfSiwIeru7nKiUGAeWyYOIKzNI5oPolTtUcnqb5SPMFEmbxiQhE2NIjfa6uYP/Hk4j4BDnesGHX+rfqPPk1A7SUvSXVIm+TGSVSAHXqj4VP0cDpJMjWnOn5LPh6TAtw+IUt1AGLF9nLxkA1GH7qnk4LJuKu4LZI48go9UQK84AKo0C/l1eBbnpUfsEzBM3/vgUW7nTjIPa0v86mNf+o8av86uTscHXDrc1xQ8XiXamBwgmuqQhbKa7S2kQAp/2ZER2uyo3+sMbTgNxPkFTG3BAtWUfgTofvCRE7Jykq1PQ/
+    properties :
+     x : 39
+     y : 105
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image36
+    identifier : 0x26f3ee50068772d4
+    internal_properties : CAAAAAgAAAAj1W7Ae9t2Op3B/I3RFG985ZA5NTfcEFVa660yYz0ZyFVIvFCLuOmCBK188KdltK2f1Hm57kxTz1EVKDCV7rHBPwKv+yb6KyHmJa/U8XhcAI1CfLrsZLXvSuMzF1Ri30Xg7CyHs4AweY1cLiVXHu9qzu8fNhPXEIb/tFCTyC4b5G34GOFCxYMvcboJiH+1TMBkTpB1CZtobLuKNTRwUp0xtfTyJJ5CWU9W9aiGyEaJ+nO8+XtUPCqqFHRjeOxlNJl69HrGTaL44bGaIkd7k5skpEszaZAmJj+zRTptW/Rk74Kzdbp+8p9D/PLqFTKGNqoZNcIfXPiegLPqLefdDxaeo4Ptz34BXaaCc+CkXBo2cdVs5yFVryvEf43ZLRuVMtcZ8L8NzvGXjMkaMjxui2Vfq+j6M4wMvwID7XMcGWs5wvPD2trDnl4xX2lhe3hALkzOoKoNIO7Mj1p/+n/SIrfZwy15vtTCOMKDH1KxYzNsH33oOTvt9TfSMmCJ5R54hoy0mJq5W222
+    properties :
+     x : 57
+     y : 105
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image37
+    identifier : 0x26f3ee50068872d4
+    internal_properties : CAAAAAgAAACdZ9BymXWI/FeLdtcD2hHibwqDR0XOIoeUlW90rXtDpqdqJiLZ6rvMVl+uglkrdmPRnitTdP7tWcOnetpvpFvvWex5TVy8bYsYjwH2i/amnj/c7izqZrfptP3Ned7oKesKRha52VJiy6cmAA+prDEA4NFhuJlJojDBZsLtagw9Ggci8ovYlfH1G1wPJrHnEvr2gPITp7n2Sr3UO5pCVKNT95b8EowYN714545k0tivHB12GzmaCv+6OEbJcL61/kVACoKvPrEj7DwbYzYefrBhIGvDWcAyFtMH5RpdL+h0w77TdbKW5m+XgEpKRWbqZv6NRTIvNNy29FdKzaexu86at62HpZQrg0xklYL66mxkI2f+cZfj2VHqUd+rEwG/CCnLImnT9IstIlOUvKqcfWthrer0yfqeTZCdd406fxWXnC2FFBCZwHzPObM7oaYyPF7gsrRzzjgSVRyxrI0g9GULlX/L7LokprC92ZxvIXWi0Y/6y6lzb61IpBI7K6TCPMZOMjwHCb8E
+    properties :
+     x : 75
+     y : 105
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image38
+    identifier : 0x26f3ee50068972d4
+    internal_properties : CAAAAAgAAADxC6QWxQk8cNufCjvfdn3Oy7ZfE4mKXrNgwUv5XiQey05Js0tuaTQ7ZeZ1JzJMyeAYNViQwY2uQEoeUd94AU4UYKsKnp2vgk67G9nG/+6u3jNoMrT+PvehIIEl6aq4afN+KjpB9aJiK6v6YDf1tHFIFP0dcE3JSgDlSorFVgwt4quOziOE5flNRxCHfmVfsjrShP4zuyEeqpkoC7pe/Pt700Ko8viwL4Xk8wZ0PkiP9ElKvzn+Go8iLBqhqPol3nWcfrZlZKcR3qK9zVyYzM7nvu1Ntz5oBD2tT/wjCa4KqcR9T2i0jDUZtizs69CQxCyDHzQlMtqcnh2ETxUbWbTAHe9hW1oZ4c767xQ4/OLa2XVYy0UB95f03yklqbNN5g/RHLOZkuErBOEePlhGK8Ffo0ymn2gU83IzwR9okWMfwjP9rHYfTvztm19XrYYwPHxGChyZXBLWv4ohHP2EFqE9v7PnztTCPsaHFVCDPUlWBUM2j1XH0wkkQH6Xl8iuyFL6ZujrFavo
+    properties :
+     x : 93
+     y : 105
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+        type : 18
+  -
+    name : Image39
+    identifier : 0x26f3ee50068a72d4
+    internal_properties : CAAAAAgAAAAL7ZY441PuQnVpVPWpDHc03Vjx/W+EWE1iw5VDmBK46WgrHWX8k7bVR4h/WWyas77Kx9KSN58QmvToY0HC39jywlWkgBvZlECtlesgYRyQhEWifHY8+ClLgqt/0wwua/F4tLxD64xUnT3Uknkv4vs2lv8X4sPTvHoPLDwnwCq30AWoYA3qx+NHwSIRYG9VPLBUjrB9eWPg/EP6JSQ4aqU5HYzqtDZyaUcmPXC+eIZZWjNs2bMEtKDKiDDL8IANdKm22L4sswB2Q0cUlGVtYbFCGMeXfWQCmlM32XYpFzCIK0Z/Se4yDrOXsFaGkb4CSrYNITajsKRi5NfOGcPJC3oKx5GDOXg7D/xUib7WUjwAg5+C/RM3uVUymZOft4EflLl7xuVX0KPpQqNQ4H6sVR85ncYonW4O6Wilc0GO/5VtjH3H5sy18JoLZWlh2/QiwoZwvE5XkiTkTYQrFns6wH8fgX05/LoknKQhf8qJO0tUB0Uw8fMlvf8aSkjhTYbgHiQsEALBQ0WO
+    properties :
+     x : 111
+     y : 105
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         ColorChoice(MySelf..Name)
+         
+         
+        type : 18
+  -
+    name : Image40
+    identifier : 0x26f3ee50068b72d4
+    internal_properties : CAAAAAgAAACvURq8X7dCJqlNeAlFGFMgKVT96XOAVBkeL3HQDQen0p+S7naRHr/otvfyXjFPopfh1mOPHFphZaNfJnZfOE+zQXRp2dzQ4c9oyUP4xTxAlBE2YBbYcKFTprfXW4hGE2lU4BAzX+w8bWkQstkLAkOechODUr/DHLq7uORH7IIPWIGcjM2+10NfBd6JcONVJOB4OuxVZSugXIemVQzkGlVBwYAWbFqqqR+6oajWdH7hAoco3eswROhC9DyLwBwVtAnKlGqSeUakDW3GhktPBxdofpnho4JoMC0t2wgfwZ4WucwRO2ToXNlhzhjAj/B4OMT7Czih/sKgvn0gK7Gz0ShI3Tsln7axXWbSM+j8nKKGKWX8BxkllzMMt2Up/YO1CufBiDcNtpEHvCmqijSu00Wna5gqm0yEh0or9QO8ERuNkmPP3kYvfkp5B92VXyCouhT+vG4xlGZAB8IbDmPKUospiwlN6sjKNKIjcz4dl+8oWzks9f8psesGZlT9aZr8eoCI9H5Fz/Ey
+    properties :
+     x : 129
+     y : 105
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         
+         ColorChoice(MySelf..Name)
+         
+        type : 18
+  -
+    name : BTN_AUTO
+    identifier : 0x26f3ee50068c72d4
+    internal_properties : CAAAAAgAAACrmuFxaXZxrNfcHCt0fiO7hC/C9NfFcmkfIpiekUDXSyRn7IqnuFGxfzq4xpkXhapQWYAf12j6CQwTUljVoTt2p5nPaA14Z7WY6HSJcF00TSqP5UeoXjiTYDv2v+2qQTHM3pAVMPYeu83V93jvo867PVI+pxEswngKbFJhVeJEJN4wdg+oz5HfMg+9xFhmddwrgfPqKEYchdKDcf98bkfNQnLl0kjYuObbavcSyH1bfNl1yeK8PSZHJmiFmF5rNMOfUsg+FnOc72LW15z0WDWmrzoaXBRQ+W14mVA2i1Pf93qA/bxlfTrMuYUFwohoo+JCCgrx0J2t/gjrU0IB+PlzKL9UISde6GiKxviBoEMpbUNBIn6GmhE87VtQpyn+NMECsxc44w4njOGwzsgenPB6U3meyXF+eGev/hBjeyWbedx0Fdn5ALzr5XTNrTEh49TQ9kmtqauz6uqPyYfbQGv7mzrbNm1nwsQMu3A4HD5mxzyfbyPb463cvvpmCWvFg2sPtMYjz40O4BtNn1x5Skqfyd6nQAcL1+ka0VGoZfPob9htDYcZxtaujSB+jcCKDYcTW1F4TUWY9b7bOthdvGwqSXzrm1QZCoSML69HSoNSCM26MwnEx+fgKfQOJsNOj5AtcOBN1X12ENyiei6tu4eZr1esjnWAkzoEPzAI3mV4i9B0+3fSYwZ/+eVTffAOTTJmZ1DpGU+EnVXibWkglw==
+    properties :
+     x : 2
+     y : 2
+     width : 139
+     height : 23
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         ColorChoice(Image41..Name)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Image41
+    identifier : 0x26f3ee50068d72d4
+    internal_properties : CAAAAAgAAABln1iKQY1AJC+zLh+7Elnax7JbD/226j98zddNlDIAoUz38S3QGza9S4SXibgqQw4+G3byC2fwGoDcS+nmv9AyzmkI8BfBlLh5s/EONxZWtosAauxGxg8p6Bk9MeLg8Ys2glKZ3eo6s9OSWB/NXDlg7NVVSLVxQmitIqINjvR1OiMmBvvsrVFVL8h/5v0nujJq3FYrQ0m2kkHAY8JWpIPzSxqAioAYJ02M6578drB37EECFxFmAoXKGAZ54M51zhWQKpIX1ilrtMRjO+4mRmh5Lm39h7745B1dj7zzKQ6qieQNL4gEDOUpllxca0AAVNzTf4TVkoqcng2kbwUb+RRA3Z/hW0oZkT76/2RYDPLKicU4G/WhZ9dUz0nFWXONJq8x7JO5YmHb9OHuTrjWO9Evk8zW7yjk01IjwR/4cQObYmvB6MoD7kB1E9uTWS6QWLwGXui1MEL6Xxq9oGEkds3N19/7usDacr4PkcSHOU1KeddCg2HL1xUwXFrzc+yK9H6G6mRvkTd8
+    properties :
+     x : 6
+     y : 7
+     width : 12
+     height : 12
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x256182dd0199a866
+  internal_properties : CAAAAAgAAABAT8ddU+JO11TIntTfaZYCH05AhwFNEFlEekYWyDerudjCQb8vodJezTwg5DhOIcAQmIbcgaDSTm8VePgQhTi8WNQ74tK/rrPmgECbNH236X2mSW+3u4Sh3eg0wOruna6RluLXEFhOTu7J1XOlhwjSln3a2YTDFIZWt+St3jVkE8KmkzJpM9D3bYsfgSx5i9VqqvPNmPoLHIN+DXjXPnnY79WC0Y13VA5Tk6tFoyHQ/nQF/hciADlGxFvPeK+JU7U3iwTYkJGFTZKOq/3ivyeEoLoH4MNnG0B0ZgivS1Mwv8BlrJkoFWSSbZS52ZmuQF0cXvxkPNBUVV0cJlzGQXXYeRakGH9k
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADV2neVTKCeFnx/vZ1siOiL6R9CVU3va0/UMPiyE83bq5eyZ6OIcocR15Gkr2jIGmeXpW8Wc2EmHv4hYRZBwS05DC7O/p3UzGAMsFga40xEy1FyMg8hAo/y25yU
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+   -
+     code : |1-
+      Image1..Color=RGB(0x00,0x00,0x00)  ; Image41..BrushColor = Image1..BrushColor
+      Image2..Color=RGB(0x99,0x33,0x00)  
+      Image3..Color=RGB(0x33,0x33,0x00)  
+      Image4..Color=RGB(0x00,0x33,0x00)  
+      Image5..Color=RGB(0x00,0x33,0x66)  
+      Image6..Color=RGB(0x00,0x00,0x80)  
+      Image7..Color=RGB(0x33,0x33,0x99)  
+      Image8..Color=RGB(0x33,0x33,0x33)  
+      
+      
+      Image9..Color=RGB(0x80,0x00,0x00)  
+      Image10..Color=RGB(0xFF,0x66,0x00)  
+      Image11..Color=RGB(0x80,0x80,0x00)  
+      Image12..Color=RGB(0x00,0x80,0x00)  
+      Image13..Color=RGB(0x00,0x80,0x80)  
+      Image14..Color=RGB(0x00,0x00,0xFF)  
+      Image15..Color=RGB(0x66,0x66,0x99)  
+      Image16..Color=RGB(0x80,0x80,0x80)  
+      
+      Image17..Color=RGB(0xFF,0x00,0x00)  
+      Image18..Color=RGB(0xFF,0x99,0x00)  
+      Image19..Color=RGB(0x99,0xCC,0x00)  
+      Image20..Color=RGB(0x33,0x99,0x66)  
+      Image21..Color=RGB(0x33,0xCC,0xCC)  
+      Image22..Color=RGB(0x33,0x66,0xFF)  
+      Image23..Color=RGB(0x80,0x00,0x80)  
+      Image24..Color=RGB(0x99,0x99,0x99)  
+      
+      Image25..Color=RGB(0xFF,0x00,0xFF)  
+      Image26..Color=RGB(0xFF,0xCC,0x00)  
+      Image27..Color=RGB(0xFF,0xFF,0x00)  
+      Image28..Color=RGB(0x00,0xFF,0x00)  
+      Image29..Color=RGB(0x00,0xFF,0xFF)  
+      Image30..Color=RGB(0x00,0xCC,0xFF)  
+      Image31..Color=RGB(0x99,0x33,0x66)  
+      Image32..Color=RGB(0xC0,0xC0,0xC0)  
+      
+      Image33..Color=RGB(0xFF,0x99,0xCC)  
+      Image34..Color=RGB(0xFF,0xCC,0x99)  
+      Image35..Color=RGB(0xFF,0xFF,0x99)  
+      Image36..Color=RGB(0xCC,0xFF,0xCC)  
+      Image37..Color=RGB(0xCC,0xFF,0xFF)  
+      Image38..Color=RGB(0x99,0xCC,0xFF)  
+      Image39..Color=RGB(0xCC,0x99,0xFF)  
+      Image40..Color=RGB(0xFF,0xFF,0xFF)  
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     type : 11
+   -
+     code : |1-
+      
+      
+      Close("", -1)
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : ColorChoice
+     procedure_id : 1653927515550151364
+     type_code : 14
+     code : |1+
+      PROCEDURE ColorChoice(LOCAL psName)
+      Close("", {psName,indControl}..BrushColor)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x1055d94b001b04ee
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

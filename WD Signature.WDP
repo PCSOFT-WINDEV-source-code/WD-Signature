@@ -1,0 +1,124 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Signature
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD Signature
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Signature - Example
+    internal_properties : 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
+    configuration_id : 11058124707381104428
+    type : 1
+    generation_directory : .\Exe\WD Signature - Example
+    generation_name : WD Signature - Example.exe
+    version :
+     major_version : 21
+     internal_generation_version : 1
+    icon_filename : .\SXP18320-32-5.ico
+    language : 2
+    telemetry :
+     status : disabled
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAAC+bNLCOOmaXeEY2E9oiuuIj7A7nzKlKka58l6b+zNBQ+8zDut9mz7+XDfr13lU+aDQEf83veL2gHLLZm0=
+  -
+    name : WD Signature - Component
+    internal_properties : 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
+    configuration_id : 17724983115938314708
+    type : 4
+    generation_directory : .\Exe\WD Signature - Component
+    version : {}
+    language : 2
+    64bits : true
+ elements :
+  identifier : 0x4af4545a000d6b16
+  elements :
+   -
+     name : WIN_Example
+     identifier : 0x4561814100025c66
+     internal_properties : CAAAAAgAAADHQy9zsO3F5vGMG4bYDPPKO0T2pipahyu2FdzlGA0BJy3Tx0DCPsNjjohyTtYK9urSUg==
+     physical_name : .\WIN_Example.WDW
+     type : 2
+     configurations :
+      -
+        configuration_id : 17724983115938314708
+        excluded : true
+   -
+     name : WIN_SelectColor
+     identifier : 0x456182d5000387ed
+     internal_properties : CAAAAAgAAADwTih0s+jA2+R/0v3nBNgz7Imrc9qDqDmqwKlw51mzVfsnrVq7BYyqwXtlU9MN9evVXQ==
+     physical_name : .\WIN_SelectColor.WDW
+     type : 2
+     configurations :
+      -
+        configuration_id : 17724983115938314708
+        excluded : true
+   -
+     name : TEST_Example
+     identifier : 0x4c74ea3800558413
+     internal_properties : CAAAAAgAAABbNwMHpOHJ0p14d5LE6xNaI6IqModzoYxKTIpgZMhChkaOaC/WIq9PumReWtoW4tY+xg==
+     physical_name : .\TEST_Example.wxt
+     type : 17
+  other_elements :
+   -
+     physical_name : .\description.gif
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components :
+   -
+     physical_name : .\WD Signature\WD Signature.wci
+ report_and_queries_enabled : false
+ languages :
+  - en-GB
+ wd_style_sheet : .\Pocket Signature - Example.sty
+ wb_style_sheet : .\Pocket Signature - Example.wws
+ code_elements :
+  internal_properties : CAAAAAgAAAB5tfxWxEraRpoXcvGXpPFtpFQugVT/Uza8GS8wrx2POG2EaT0nuc79f/JWr3EB0y0NpfD8Vq1ZKs6IAboBH420wRXx5oVavduqSbLl8/2E0qLSN0WC8/0LwQ==
+  type_code : 0
+  p_codes :
+   -
+     code : |1-
+      
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Signature - Example
+     identifier : 0x4af4545a00116b83
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : WD Signature - Component
+     identifier : 0x456c67d80249be5c
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    name : Telemetry
+    explorer_type : custom_folder
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

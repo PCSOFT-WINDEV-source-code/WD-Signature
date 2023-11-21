@@ -1,0 +1,297 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Example
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Example
+ identifier : 0x26f3ee50058d6ff5
+ internal_properties : CAAAAAgAAABdIllIYQcnffiT/60rj4wD1W4uxhc3y1LJOAodYXl0ZIIxSwV9YAmGxbArIg7Q+2OJsVKQC+9iw42D3uoO2jTMEB/O+eYWDu/4T/Px+aGEB0f81M34PBjmRMvprn5Tu4Hb65NtCjnpq7hvKYjpDygIySRukrQoeItHi1RjG87ZEp6NCANCwJo9tn4pp22af1A5C6/xmjv5MkBrlOJ+KHBMWex202js03EK8ty647DBLjg9Ef0G+BezMuQDtKB4v7FeJvIzd8wkL1Y1YwRlUDfdvhk1u+NmXxdHWCNXlL5NVt+ZLe6e2ZihZvzrldV2q7VzfjyX0i6JDq7SyH2uYDOb0d2LqDcrEHAZazb+KOb2j1wJ6CTMPKZoNB5TzMC7DPnFc0zBWZHKAjVNN2tXK5LFMgh8ugaOjx6Zc691d2pn44qXH01xZscbxPjy6fEFyDTV5mT5ZWTvOUCrI2DciM4p6AIl4kl1JRyFBkciJPOItzBuL9Ug9K+RoYkhW1fVXWXcTslXFi0LtyR+0IhyKCFQy3Ou538n0lZwEHBOt0KDD6npWz0fqME9RIjaNbit0hjVV47hQ8qxjQzQ0yowZFPYsNJ6hNQdKPoYr3vzsW20Xv8nlFCmGpmwHwTOdsi9dZ5qudlkDBp8QcGfpcKZptsaESYr21PR8cPAG/Omp0GNqHburedL7Ym7ol027kIHB2PQWNHTqQnodnxVGuKwxuvzohjR9ZOsZGa6mkN2Eob1t2nuYMhQuG4Qn7c=
+ properties :
+  width : 544
+  height : 428
+  widthClient : 542
+  heightClient : 374
+ controls :
+  -
+    name : IW_SIGNATURE
+    identifier : 0x26f3ee5005976ff5
+    internal_properties : CAAAAAgAAABMq4NZSRJF9MchE/ooqEoIg5sVLqsxPe3YMO/m3d5Z/SjTzBaJR67jR4ptfF9djkswVcuqrv5UARfNb+g6+fUPPnlQuj1Wxm+f3InfN5y/ioJ4ntBF+AUpraMzdLvjb4e4fZHPVftLhjAvv7vEMRJ8wzfjuocuGhcNIVMoZpaZ+//NiU3PGTsHNgyBfawLFd2azni0FyOY9ujIgHF6M3J6SE1UcJoHmu27ecmblSZIlM1/9T3ASET+pSKUw/gN6b1lA7ic513uDOk3rBThODHkqZ3bSBrhYaez4gPGjqwijPbAajqyku/sWeiUSHB9DzGlhN/qHHsjLSqIa0RXBdTVQwoQ88xtMJhMty5XbUfBd+BejMPjTVQ1iskqBOsK2+PK5nrMUiYv+hIssCsTIIXMXQwUvsWl/3Nb/auvsauh4zqZ6NtWaHeYhUMdMsB1tlALAiwoIAxhPNZUvGvrgjRROCLy8SrrceMNJ2frd8CQRdO44WpALOfYWwFjkDS540HirykS0i1i0L2+quNNaOa6/G7rqT+tp8HpDoIQ/HoMGEhziIUUf+UOkQw1Psutw32t0D80
+    properties :
+     x : 6
+     y : 107
+     width : 530
+     height : 226
+    controls : []
+    type : 31
+    code_elements :
+     type_code : 73
+     p_codes :
+      -
+        type : 33
+        enabled : false
+      -
+        type : 234
+  -
+    name : STC_SIGNATURE
+    identifier : 0x26f3ee5005986ff5
+    internal_properties : CAAAAAgAAABTRagHNZND3XvsMzD3io4VJnR4jlqWuiPLm7ygqDWOy7v0rmyvQFI/etj//9cNwRmZ4gxLl4snLwTnyJmI2BQYNs7hRvjX2mOJ4W8llBcth3RrCQU6wOtz13Sh+RD7XX6mpomn92m4FvN/4RdNF6mMAnPr0clo0XMcipOX18l/dF9JaxgEQmeoMYqVcpo5sAjNpkqYKt8p2nZeDonopSLk4Ny+xUADlPrfWZmfPucpXbhbCGVGqx3/85pwdmwwWeQOHlZZl2tXmmPm4RYtQwi/YsOzdMojY2crOc6IeusXdEC067lv3Mol7WBCGAp13rKomZ6Q78JxeSTJNL9ZYsW0Pe5eJUxoHy1KKxuXB1EjwDzDPWj6tqswgZBuF+MrXr9kv0nL9ZrkL+SPcSz6I8mWAI50mEbs66b3t05UxxZVxc33+flBx8xh/CM0wevFc4HRxe+guEjPlyG4GWwFmQG0/vTm81que118weealA9/tPjAziImUrkMva6PFA==
+    properties :
+     x : 6
+     y : 92
+     width : 71
+     height : 14
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STA_INFO
+    identifier : 0x26f3ee5005996ff5
+    internal_properties : CAAAAAgAAACtYSKLihMBc2D3Kt3h377uddbmUcJo6+FwQ12EiRBy8yZKjwDFkwG15uv6sBMhCLbXMDIqGX055Vk2FEcEfcAnqgcoVbkLqj+Tg1Nie2AqKKQsHlN/S6tpcwvjFwbK37IKwist5daV9iZWmIssWQ6HLYKgELgXv3kQwgCfdkIDs0P6BGcAMriVLvA2bZXx5eX21W1qrc2JTjmAV9zQQaI7GS3P+b5WK3tbttEYDCn77elJ9il0kDNVUdL9r0hw/3BGrCise4gS0rBqiCw9CnDVS5WSmWfixjbNtjp/X9lC+TL1K0MA2SeeCmfrh//Tsk5bBVZImiUHJQC/T+ZYFwM21QYLNp6KdJj1RNEb1xgTVm/ilWLQHBSlLYhKHbq3Ug5p5B6DAlGKu8jChyUxe7qyQzxyXKXbS+yqIznHvYwI7Nv3Bg5dhO1vPdLrWP5iEfsq+kbszbP3bX/yYDTCEkaOgEKAXHScuz2NjTQ4MIQAQ7B3y/wimN3s936jAS9gB8YprDmn6amKEv2zUdOQ6SZDcFBwziS6ZNOYwfGed+fl6ES5bYDTcFqOH96pdwTLtw9+S2ln7/ettS/IXukbCb+kTHufaA6x/KOeFPkR7yGK+Myn4sBJwWYUUThTHcp6pSbt1cl1Den/DMcM4K9BjD8ASn2v+KNYZ54fplONsX4VFYfcxc8X4nfSckiez/enqgzl6hhMQX9wJEi8Wir93x5vjcXB89nrTKZYFxV3t8/81gt1HfGCQeSwzoEpeV5UmJ8=
+    properties :
+     x : 6
+     y : 5
+     width : 530
+     height : 84
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_Close
+    identifier : 0x26f3ee50059a6ff5
+    internal_properties : CAAAAAgAAAAD+Adl732IEc46fD5uK4TBItqG4Lah78eHAzQPtTDbdJPKvYMPnlIPxwOp4BzdMQ8VkTiQGgaHe0B2+z57kXKS4YwAu9D3OD+Z1YDhhYujC1LX31WpMEnDFdImSoFVRvDs17pluIDNer/oRtFd3Fu7nM17Ndx0+1CH9E0ehksZrNrGT74lUAvlHmJ8UWNjqAtmAEYk4NGq35LLIeGYjAxCNil/uQ6+2pGUMvlxyE4kgc2O8U28SNhFjDZD1E6q5HsOdKfBUxJ971tUth5KshKlByk2mrUt695Q8VX/2qpKqov0PiRM9YrO5Hwi72Kt7qjOUixGpbEiAAklxh8sJTUycJFh/4pdCqYapaskAY/PfeZyjbGyHfOzbWAw175oj7nwkaJPFxyBI1zaZCIPXAWx3y+1zT1uyIFVPOaOvsUaj//Jc9XVaEOjEeLbGqusnb5MmEkGI4W1OdUAirZuQvkIqpNxW2Rv78KsJshJAXnAvSxlC1YdQCFqQ4LdNd9ORBR1nAk9HQ8TmbdSLn01iq/QleredTHat8TYyZZJKZJ0acTckJA0Pw4pv6aBTjp6Lg2Bne/yOlfxmE7VWmBVQToUkjafQRcYnmeTYASk88/rzKXazzxODm/LHZtNJ8vWtMPcsO2iyPKAxYQqRA0171tw1YmfIQGPJH0CFgl8OPrR9sFVRaYtFj4H+pF3xVuxgvkFkknywBn1SA3IDJhClPjzCHQlU+D2EJMTzDxk3BIgsn0dYfBbbVlXEKPrF3Ee9jEyT86cKieyYSPq+EjPYGpDgXIEKQ8umjEP3J5Z5EZUEWBh40CZO/U78ZHVEEoipocXQTPoyGfQLGjkkYOc20+c4mEcZHBYRS7oftszqhTA09HsOVUjkKe5h0HIbzrzn3yVWBuILCwKCw==
+    properties :
+     x : 456
+     y : 344
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_SAVE
+    identifier : 0x26f3ee50059b6ff5
+    internal_properties : CAAAAAgAAABdqwtOnOc4smybEGVT7912Ia+oznmRDFk83Jpudg4H46tpClf8/YsNyvh2JbxfjWjunzSkQyvvTp/xDXNGZ37Q0soNpK6m4KMgeVQW+czJJJ+FsPwLlzuJZ0vhwL9iI3keGytu70O4xo44TfhBcQBzXrZZBd4cAOMkHuVJJmLneMu8+AFQ1Cm7Z6BGFNAODJar5S35i1KwWKJP6OGQ26tK5gLzqW+XvjFOgMLDMwJ4puuYpCNy+UjXV+R1KnvtJ7SGzRGw5WtesoA2nAKdIncD5+xJnqcsjAVvN7y6Zd2fPR5Op4OPT8odi9smBSP1fV+1GATPlpu0h+oxK8qqsWUXg6kOuHNZ05Zq3y5hBZTAf/FUdNdVV7gBQC4aUZIdnotIPCpXQFEdxMiA/1nSBIbXQrbVOripnV6ja3R+FS6FPce77HCZK4bZZc5ottQYZBV07gUb29nE9gv0aIn/8u23nrZkViLMSkLP8bbhuTVgiuoU7RPjmzJq+hDVLwf8CvlyKA6DGib38Bs8rBeOghj2VIAYzNpy7/+GIw8Zn3p62gag4SRPTRi2P4Gt0JdXz9cFT0azUbMRnz4rdeFd8Q7GAH71+y9nxcU+VRFW88GRBJZqfHVs8lNnyH20G1uedWCxaEDeOYU/T1ozgaaegjdqzcCfH9xQ0Bq7LExVblBDHHDAg9Rsol8p1eJaSte3AOs+fSvHIgVdEuv6WyYiSd+l1XPc4eRKxhdsgsHEAHebtr2JjjmSO9VRYH/RwibCWARXHtYvYR0LQfID3Z0GbwtDYph+HSb4QjKDGfWKPLjmHHfY9R3IgGE20KLKENp4a0eVd4kSZrv9ILRjxnFokvWcER57uuKi1Bi9wUNJVbKgtEboVVwCXXFanQye/6mRqQjDnE4l
+    properties :
+     x : 350
+     y : 344
+     width : 100
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         
+         // Opens the file picker
+         sFile is string
+         sFile = fSelect("", "", "Save the signature as...", "Bitmap Images (*.BMP)"+TAB+"*.BMP"+CR+"JPEG Images (*.JPG)"+TAB+"*.JPG"+CR+"GIF images (*.GIF)"+TAB+"*.GIF"+CR+"All files (*.*)"+TAB+"*.*", "*.JPG", fselCreate+fselExist)
+         
+         IF sFile <> "" THEN
+         	
+         	sFormat is string
+         	sFormat = Upper(fExtractPath(sFile,fExtension)[[2 TO]])
+         	
+         	// According to the selected file format
+         	SWITCH sFormat
+         		CASE sigBMP, sigGIF, sigJPG
+         			// Saves the signature
+         			IW_SIGNATURE.SignatureSave(sFormat, sFile)
+         			
+         		OTHER CASE
+         			// No action
+         	END
+         	
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Reset
+    identifier : 0x2710d756216597a9
+    internal_properties : CAAAAAgAAAAJhde2uze0hdr09Wfo6Reqojxfkle+mIVwMnOkZ1tGn/8cuIw9nFj7uknEUDch/oKYUoNLMRwMMORIdsf8mw5/YURcFf/4LMZb1DpOWmaDLKvnvxWkMk9CmYcVd0kbZyHHnytmJVvSXYoAgTALniNwynejAVE0ECG9IbjMVyZ3m/p+Iib/N6/JxLkNfHedwNteoL9J3R9ZeSlX8wGqTHeItsPWAxUn4Xxlj9hqIzbJBSHfWeEHBnvyUsp1m5uw6dJIxFnbxSKQEjJVQByNd2s/vtbH82lDnxycZvHwM0U+UKPUI3IXRYqh8cXRg1xKlcXqY1TlIafxaSEEtkdyT1z0o/uRj2OCfOFsN6+PkMIMDbYrNz9Opdy79gcJE/bQT+V1geUTxSlN/JroykC1eoLfr8zqr0co0ntYWqdCt9AltlNkmNL1k38/LevfXqIvPCCexBIaM9I0RtovvbDeDTxoPsNzGwgm6p6zIXjBBRHo4kpfeZksYgU/86kezppJV6Qdi/Gl4Oi3+CPErAuQgJpUMtb+wrAkobF1MgzGKD1RjJDLdF0D/PMOcw9fFkIdMYZHcAU80dMgjAVz3rMTQya+5jUkFWCFH4ki0ih+dkXxnpoXVbtzWc5Z94p+BVh/Il0UGioaIMj0DbOA5iTw4VszNq9bvUVgl7ma0/qdgXOt+GjvbwUcwi3uyPHVKNO7X5pTo8YAuk+5dkvemdex516hbPvN2P7MWGTX1Qk9IdoZ5seHIrIIRD4KtHM3C00YSP7TkyH4erSz79x5KUjzl9cPlo4hYDqi7TUSmVRtOMg2LG8PhJ4Q7Y6wzkub+gDnrDhFDF5s/UraZr9REbFOahtsgEhM/POWWTJ4elcx4ZcsfMxhlfT8B6bd75d2JVrgjKOOliMw7/HmfdEGUHK4/0QgJ/AM6w==
+    properties :
+     x : 6
+     y : 344
+     width : 100
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Erase the signature
+         IW_SIGNATURE.Signatureerase()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x26f3ee50059c6ff5
+  internal_properties : CAAAAAgAAAD7mLdZQF+q7mHdqMKqPikgbZvIRhKHk+XchJDgQDTy7FOYGGV23/0wh7s7b/TCoibreIU8/x5Z7fla0MaeFj6J7UBC50UKdiwA3TiAKmVzVwGzpad6KMQRb0C75C6h1ZNEAQyOigek0gfWxdBFzSM6p9hLR4cY8AbFTyjQuvbjjqNDn4YE8L5kPh8aXCN0rJUnLDvKZs+3ywIduxg+LjFejwWek5UGAvfWAECdPZW+e2kmJTpP+YufHGdsBTvr0EiaO2zw1nTrcNotVRNcgu6VEv+gAvYU1+/QP8miX9u9EOdhZohGVNpr
+  options :
+   -
+     name : OPT_Options
+     identifier : 0x26f3ee50059d6ff5
+     internal_properties : CAAAAAgAAACATiiSUk8fZv1J8vP8o9Wb+6JbQDAFsh1Mh4/+AiM0uYDETbZQAOHI57Qw49tNDnuPtU/UDRt8dK8/KJuzDMotzAWpaGhlmfYBnwt4UaTYPLtEa+0+3fqNBdKNY22Sk0h9brBTNQrH1CjRwQob4uuUpsgMnxkl6t0feuq9nvbdETYYSGBZp/z4Df8cuvzyudCve4322FLDhRmNYPmQsr35pUSj8udiobMc4fbJ0VMzdDRkayu5YpaK/mSEmEzBRi42gveXUjcC+7PDOn4TM1QRuUXeaeDAlX61kpEk7Om93RIVKHbBY+IqqEoqQINeTovgRJURVwczg3k/3UgRJIaL
+     options :
+      -
+        name : OPT_Color
+        identifier : 0x26f3ee50059e6ff5
+        internal_properties : CAAAAAgAAAD4KR2GsUQ3fEG7zS9jO23BoLaG/ZPoTi29Fr8BUAMrwtP77Sy2PHgTpMrJ1y+rC6HE4tr6uyM/dqwKZhUHWvjqke2z71UP6nd+w7PQCZyrgsXdifbFDUUm+X42RLl4R8Hw+u/d2j3/AurWEGfPfL1MSuUJQCgbEwlTO/2vGs6s9isU4cE+yBzX5Hywoh1IEzBal35suUWBQbwLJb5UyX3XsXtuFo8sGwMqcC5GOFjfXLvIZA7XtclZJ9UOqbpxD3fk3jvWzXbym/tCn5OqQN8v4pXMNRAMRtUtGt3fzAgpDbZxGNhsrcbLpEJyeXtrjY/IRFAV1KPi
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+             // Opens the color picker
+             nColor is int
+             nColor = Open(WIN_SelectColor)
+             
+             IF nColor <> -1 THEN
+             	IW_SIGNATURE.SignatureColor(nColor)
+             END
+            type : 32
+      -
+        name : OPT_Size
+        identifier : 0x26f3ee50059f6ff5
+        internal_properties : CAAAAAgAAAAFUtkn8WPSk3K4q+D5SnRYjJOoQCPtgvhTqpWDO8Aw9wH7fJiIHAZ/AIgRhCZ60a/S+a54cYauUmEKSlIR5BA1YvmVzyndqUhtXJ22vjYYRkefzw3KOmjgNyVPw9DknPjMEVju5mHkxj/1DwmilTKYmU2QgCua6tzeBSeQqHlUD8vAbM3jDSAJVwas+vZaxRNXfitaCKAWb0inOuO8Qm/FFjoX36W2SxjY9XyLpfYIpHpwJGjOxYtq/+hgTILpNGJM7bOUjGG98cR/dkIYoHP+JBmUCMEbdG04DB7OvEmHKZhedZAKABNQPUYdJwugNxi68qfv8ycwyL9n
+        options :
+         -
+           name : OPT_SIZE1
+           identifier : 0x26f3ee5005a06ff5
+           internal_properties : CAAAAAgAAACizqIS9p6TdMvOUZDcPGKgUG8pgcDozzo1llnwP8pMH0h8z2X4eNuZX2JAZOBnCmvXZaFxeCOmqorbuxrEDSvftrpmmwmtrQEmDYg6tlCK9rRKlLTu19G0U9apEmt7+ahbCG14dWLyII5fhJd1Ck+190toO4FZ8TyocIK4g3VnGSESYD0JK4rCq6Y5lfGpLTDYrr7l4Tut9t91JPsc7oxMCkHUUBe6VDhbXFO4egpBpSQnrHPYnRmAe6DmKBffZJVPdnTk9PccRK6Hp7/qa3oWBbB13UBDM3eYcpr6AHz/1t5FnScs+6MGCCF0ZbBPTZGHow==
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               code : |1-
+                
+                IW_SIGNATURE.SignatureLineSize(1)
+               type : 32
+         -
+           name : OPT_SIZE2
+           identifier : 0x26f3ee5005a16ff5
+           internal_properties : CAAAAAgAAADUUBQ8YHgt1mkgP/L+JlyWotmbG0qiAXxLqIeyeRSA8wCwl33ElKfxB8ZADIQbBm8vQQFpHOe6orrHM3IAEUeTxh7u061h4cH+8dASOrQWqkwmZLzyOzWEe/pJYpfHhQyrdE14gT5uAA7b9E/BrotRDy9Yq52dfaSgplQmLcuBb9ugUsuLaXwIbdyLe5sft3aylPg7i4m/vEnj3kHWNEbqrMf2vrkQDgZ1On1eJECTE4bljpGyM5OuLfZYvuH1ziPhpC4qvmX+utiVkZWkgWx0t+bHGwaFcTVatFw4RgZ1SFA3jzUS3YFkqoPW+w7hM/sRNQ==
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               code : |1+
+                
+                IW_SIGNATURE.SignatureLineSize(2)
+               type : 32
+         -
+           name : OPT_SIZE3
+           identifier : 0x26f3ee5005a26ff5
+           internal_properties : CAAAAAgAAAAGooa26vK3kNfafbwoaK5kjMulDdz0e47Zeq0kw450v3AEd50w2GuxPwLItEDnIkv/TWkJ8OPG0lqzGyI8VRsnhmrGaxlF1bGOrbBaRkCC5owyXBwm53FMs875+qPTmSDb+A3ItcqKUOYvbAdlCtcFD8OgM5mpQWSYdE4sj1lzzY22fAE1v3Z2F1plqc3debREIgoZrW/5mgtZAN+YUpig9rVA1IMOgOw3cH9cJn5dmWArCBcUUdVUJ+QSzOMDwFnLuvBoYLsomPorw1NGH9baAbQRsXwPB0usRu6u/HCDWkIh4WPgD78iFD0QgZRrqW3jBw==
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               code : |1+
+                
+                IW_SIGNATURE.SignatureLineSize(3)
+               type : 32
+         -
+           name : OPT_SIZE4
+           identifier : 0x26f3ee5005a36ff5
+           internal_properties : CAAAAAgAAABgDGDoPFTZqi3k8zayGgBS5q3vT542RUiHJGMelXAga1Awxx00HF9B/8aoXMSbDo8naWlxZNfK+jpfw3qISZf7Ro5O840pKYGmsWiyasT+urQuzHS6W/UMyzJJah9fJfRLZA0YUUbm8HYb7I/hzoMhFxcgM2WtTVyA8siyEffly7+MplfvxXB0sZhv5z9be+JWYKxnX8Vz+N1/Yv16cPo2IHPquq0s0qJZVlG6eAzHD/phcr12f1f6YaKcOhXxUt9lcAJWgmFyxozBVcGYjeCQq4JLh6rZzZHmACh0urLBFJz7ywlOmUWo7kcqr/oVB89F4Q==
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               code : |1+
+                
+                IW_SIGNATURE.SignatureLineSize(4)
+               type : 32
+         -
+           name : OPT_SIZE5
+           identifier : 0x26f3ee5005a46ff5
+           internal_properties : CAAAAAgAAADC7kJyFr7z1GsuMfD8XEIAsM8JISBI71qVNnkQnyr0x5C0923gUBPRdyLApCCnSuuX5WExOKPmKgpb+5pEDaufNvrmmwntLUHmzYh69pBK9nRKVPSuV5E0U9Zpkuv7+ehbSO34dSLy4M6fhNc1Sg+1N8uo+0HZMbyokGLY4xXHOQGyQN1pS2pii8YZNdHJjVA4Tp4FwVsNFj8VhJt8jmzsauG0cPfaNNi7/LPY2qqhRYTHjJO4PfkgW8BGSHd/xDUvFlQE1Bf85I7HZ//aa3pmxWClPeDj05f4EjoaYBxftj4l/UcM24NmqIHUxdAvbbGnQw==
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               code : |1+
+                
+                IW_SIGNATURE.SignatureLineSize(5)
+               type : 32
+        code_elements :
+         type_code : 26
+         p_codes : []
+     code_elements :
+      type_code : 26
+      p_codes : []
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABTRPUXwjYMhN7dE4Nqju6B93mQrzs12f15Fi4W10c5i3XWx/X6xCuPXTFG/bC1NyIMiLxnJCbBNdlIArdi1lZ699FsUE8aFirazmYU5UpGya/QkKGTkBF0WRoS
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1561812b001f09b2
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Example.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

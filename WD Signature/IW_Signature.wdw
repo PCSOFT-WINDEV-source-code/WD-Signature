@@ -1,0 +1,256 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_Signature
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_Signature
+ identifier : 0x26f3ee4f05576d56
+ internal_properties : CAAAAAgAAAAI+nXX1aZG5i9DON8xDlR5zpmPqa+tTqellZXty/vn+7AtoCk0vHnycuttsvulQi6o+JB/zyYsKr4NboetPcE1tI13Kn8hi39jCnEkeuXT40MAJkXHPR/gCiGPKGj1SYQ6KvasUCz4LOxvaldtByli6rhxfS7PVrXFbGl4aN5UOtAbf53v5Ulq08zKsaObh9tEdQXdHdFQcGT9Tzwl8o731Cu93l6cuK4BO3Rs0k+Eouc/GOR/p2kRXUUrRQxIuDx+hTDJfy7WgArhp+IC5ciDiAk78Vqiz7hh2ThPFVptfpC1HlQSBhhHctqEQiGQBGig2ngQMRalf1UzmD1kpbqcUJyqlMOyVkIqAlmqyLkc/If214kTsx2UkZE47k+0SRxkLCf3lRHUfdGkeGLOsgTyGtU6019KjE8PrlW27B1tAmNmeolBfnbtHKS8Fv4HzBcH1w6ln9KK5u9LLZvlQitNyopF5qNveO3x2Qr+lrMwuTUYGar+0zPMeIWnA58beEbYAUsKBqbhW6B0jx+/bxC1/SjQETGK0rd+xl7AgQJ0/2ZRRmXZyGW4erL1pxCq7/SUe4YgX07i3Zoc3Ji9tMFXPjmy7GZuQUorzKT1FwUaV03dtm738GTDBXIVqf6hGYx+Rjt6dJ3yAUt1+J12Ggd5/fAMC/jQUAPrC0QCqUJ1yEpLKZYZTjTErd3Pd5M=
+ properties :
+  width : 180
+  height : 130
+ controls :
+  -
+    name : IW_Signature
+    identifier : 0x26f3ee4f05586d56
+    internal_properties : CAAAAAgAAACX2gel1+kxftVyBRMFvMHy/m4RY3F6om45bAyagVmv5DApE9qN6ougW8KPBbCBJbLbw4yvwWZ5i0al2ZPbZ+ZWQj5bFe5lI/EUezttbZU5wP6JQPdXnPtLD5WDVzkeb0GcyWrDQYcI2JQ5byiTIwHX/BCYEP+PARwC1EKv1pvHO4OnCa1h8fFxWPHn6ALq3OcdrTCcGkUz8Dt2oOR2mN/ZNYuo9k3Co0+3miA2NohUjQYmj6Xt7T/5fTVRPloc9ix/HIXJWq0fpl7qPkpej8bX4kOmkE949+FaGZp2DKTIyln2/+qWPnOi1Lt4TNjLV9JT9r2LXPuNEzsqLl99y13vKmNuAzuHjxUekr6XxmxsogOxR/QaNAv9HCdUc40ed3BS0hVaifsaV618sFTHhOSH/G2iJQgerdTmU++meYAh1N3sgA3Sztbz9KZOzi5jU8/ntWDP/nSDd3VmNMwPK6pfR9ETImCabk3ywfvhqx24ew==
+    properties :
+     width : 180
+     height : 130
+    controls :
+     -
+       name : IMG_SIGNATURE
+       identifier : 0x26f3ee4f05596d56
+       internal_properties : CAAAAAgAAADJKDfg7vp961QB8mua5/SISi8Wl8NmO+1dTYOe7x/OT6a9+fDFCoFBaqkA5DLMupzB9047Lnh1Zz7x/7LJDKYIhWfd0Nvh6s3D49z/DtfO3mITkGyCT6gl0BhhJMoHId2c6ihca0u8FiSkmDVjRuLu1I9WjE3mNrAfQS/vxUHcc2kFbnml1D893R2FjV7A84eTIfE+Y+hPTR1yOFI6sWedcRvUvHS/D9eHqt6n4Bo3zjgFR2GnqDTF6bxm9Nb7NW4RVqNzSNV9CAse4k3uSHjPsh3NE/RYCB3GNSi2kmODlfJeiscphuUEUxaCATOCFe2opL9M06JCJrqsYrMkbsFyagZ3LthNduOcyDUVDzVXnIZ/hKSFcFxHo5ntzoUH283h3zFv5MeyxS/Yf+BRb+HIT64l3EAsPbrO4O+b0juA1MWtmL9hHbFeVc2WmFh3nABoH6qVywDi/c/LF/YlR4RyZlDR1DOnOeGjjDK4Q+7CckGCw+t+DhqhzTtzkZqkKyiId/Fyp9vrJ8OWf8oM4EbWSw==
+       properties :
+        width : 180
+        height : 130
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1-
+            
+            nX, nY are int
+            dX, dY are int
+            
+            IF gbPressed THEN
+            	
+            	// Retrieves the coordinates of the mouse (stylus)
+            	nX = MouseXPos
+            	nY = MouseYPos
+            	
+            	// Source X point of the line (former X position if valid, otherwise current X position of the mouse)
+            	IF gnX <> 0 THEN
+            		dX = gnX
+            	ELSE
+            		dX = nX
+            	END
+            	
+            	// Source Y point of the line (former Y position if valid, otherwise current Y position of the mouse)
+            	IF gnY <> 0 THEN
+            		dY = gnY
+            	ELSE
+            		dY = nY
+            	END	
+            	
+            	// Draws the line 
+            	dLine(dX, dY, nX, nY, gnColor, gnSize)
+            	
+            	// Saves the coordinates of the mouse (stylus)
+            	gnX = nX
+            	gnY = nY
+            	
+            END
+           type : 66048
+         -
+           code : |1-
+            
+            // Start the drawing
+            gbPressed = True
+            dStartDrawing(IMG_SIGNATURE, dNoErase)
+            
+            // Retrieves the position of the mouse (stylus)
+            gnX = MouseXPos
+            gnY = MouseYPos
+            
+            // Draws the start point
+            dLine(gnX, gnY, gnX, gnY, gnColor, gnSize)
+           type : 66049
+         -
+           code : |1-
+            
+            // End of drawing
+            gbPressed = False
+            
+            // Erases the coordinates of the mouse
+            gnX = 0
+            gnY = 0
+           type : 66050
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         
+         
+         PRIVATE
+         gnColor is int = iBlack		// Color of the line 	
+         gnSize  is int = 2			// Size of the line
+         
+         gnX, gnY  are int			// Mouse Position
+         gbPressed is boolean			//
+      -
+        type : 15
+      -
+        type : 16
+ menu :
+  name : _Menu
+  identifier : 0x25617be000365ad6
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : SignatureColor
+     procedure_id : 1653927511254396246
+     type_code : 14
+     code : |1-
+      // Summary: Modifies the color used to draw the signature
+      // Syntax:
+      //[ <Result> = ] SignatureColor (<nColor>)
+      //
+      // Parameters:
+      //	nColor: Color to apply
+      // Return value:
+      // 	integer: Previous color
+      //
+      PROCEDURE SignatureColor(nColor)
+      
+      // Saves the former color
+      nFormerColor is int
+      nFormerColor = gnColor
+      
+      // Modifies the color
+      gnColor = nColor
+      
+      // Returns the former color
+      RESULT nFormerColor
+     type : 458752
+   -
+     name : SignatureLineSize
+     procedure_id : 1653927511254461782
+     type_code : 14
+     code : |1-
+      // Summary: Modifies the size of the line used to draw the signature
+      // Syntax:
+      //[ <Result> = ] SignatureLineSize (<nSize>)
+      //
+      // Parameters:
+      //	nSize: Size of the line
+      // Return value:
+      // 	integer: Previous size
+      //
+      PROCEDURE SignatureLineSize(nSize)
+      
+      // Saves the former size
+      nFormerSize is int
+      nFormerSize = gnColor
+      
+      // Modifies the size
+      gnSize = nSize
+      
+      // Returns the former size
+      RESULT nFormerSize
+     type : 458752
+   -
+     name : SignatureSave
+     internal_properties : CAAAAAgAAAAkXHm1zesH1VaRbjRB+q3We67pB/nl4u20pAg0N2e+Zx4uFjbd9jyYhsR1WvLfs4mo4SfanVkhnHvuKgT0poqMt4tonYTl6R2kE1XBh/+nj3i7tDQQC5Qj48iDk4hx1bDaCZLCZ3pijZ2Q27Qlx+zN+F5k7Sss65BFitlZFg7SQz6QMpIT8P1oFrvN2966awVZfBWgox8x6ZwLIZXy3Zmv5S5e8iK/
+     procedure_id : 1653927511254527318
+     type_code : 14
+     code : |1-
+      // Summary: Saves the signature in the requested format
+      // Syntax:
+      // SignatureSave (sDestinationType, sDestination)
+      //
+      // Parameters:
+      //	<sDestinationType>: Type of backup (sigGIF, sigJPG, sigBMP, sigBuffer)
+      //	<sDestination>: Destination (full path of the file or Buffer variable)
+      // Return value:
+      // 	boolean: True if the signature was saved, False otherwise
+      //
+      PROCEDURE SignatureSave(sDestinationType, sDestination)
+      
+      bSaved is boolean
+      
+      SWITCH sDestinationType
+      
+      	// Bitmap
+      	CASE sigBMP
+      		bSaved = dSaveImageBMP(IMG_SIGNATURE, sDestination)
+      		
+      	// GIF
+      	CASE sigGIF
+      		bSaved = dSaveImageGIF(IMG_SIGNATURE, sDestination)
+      		
+      	// JPEG
+      	CASE sigJPG
+      		bSaved = dSaveImageJPEG(IMG_SIGNATURE, sDestination)
+      		
+      	// Retrieves the buffer of the image
+      	CASE sigBuffer
+      		sDestination = dSaveImageBMP(IMG_SIGNATURE, inMemory)
+      		bSaved = NOT ErrorOccurred
+      		
+      	OTHER CASE
+      		bSaved = False
+      END
+      
+      RESULT bSaved
+     type : 458752
+   -
+     name : SignatureErase
+     procedure_id : 1653927511254592854
+     type_code : 14
+     code : |1-
+      // Sumary: Erases the current signature
+      // Syntax:
+      // SignatureErase ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE SignatureErase()
+      
+      // Erases the signature
+      dStartDrawing(IMG_SIGNATURE, dErase)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FenêtreInterne1
+resources :
+ string_res :
+  identifier : 0x15617bd2000224c2
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
